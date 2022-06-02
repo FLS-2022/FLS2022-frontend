@@ -1,5 +1,5 @@
 # FLS2022 - Frontend
-Frontend repository for FLS 2022 Website
+<h2 > Frontend repository for FLS 2022 Website</h2>
 
 ### Progress
 - :white_check_mark: (name progress)
