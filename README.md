@@ -2,5 +2,7 @@
 <h2 > Frontend repository for FLS 2022 Website</h2>
 
 ### Progress
-- :white_check_mark: (name progress)
+### Main
+- :white_check_mark: (Header - Footer)
+- :white_check_mark: (Slider)
 - :bangbang: (name progress)
