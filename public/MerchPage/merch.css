@@ -1,0 +1,232 @@
+/* HERO */
+body {
+	color: #333;
+}
+.bg-hero {
+	background-image: url("../../assets/img/merch/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.hero-title {
+	font-size: 3.5rem;
+	font-weight: bold;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	color: #fff;
+}
+
+.section-title {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.section-title::after {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 4px;
+	border-radius: 1.5rem;
+	background: #fd749b;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+}
+
+/* MERCHANDISE */
+.merchandise {
+	min-height: 100vh;
+	padding: 1rem 0;
+	position: relative;
+}
+.slick-slide {
+	margin: 1rem 0;
+}
+
+.slick-current {
+	position: relative;
+	height: 750px;
+}
+
+.slick-current::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 700px;
+	background-color: #fff;
+	box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+	border-radius: 140px;
+}
+
+.img-wrapper {
+	height: 500px;
+}
+
+.padding-image {
+	padding: 5rem 2rem;
+}
+
+.merch-wrapper {
+	text-align: center;
+	margin-top: 1.25rem;
+}
+
+.merch-title {
+	font-size: 2.25rem;
+	font-weight: semi-bold;
+}
+
+.merch-price {
+	font-size: 2rem;
+	font-weight: semi-bold;
+	color: #d60000;
+}
+
+.button-merch,
+.button-bundling {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0rem 4rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.next,
+.prev {
+	cursor: pointer;
+	outline: none;
+	border: none;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+	backdrop-filter: blur(7px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 16px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.text-line-through {
+	text-decoration: line-through;
+}
+
+/* BUNDLING PACKAGE */
+.bundling {
+	min-height: 100vh;
+	position: relative;
+	background-image: url("../../assets/img/merch/bg-bundling.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* ORDER */
+.order {
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 2rem;
+}
+
+.order-button {
+	padding: 20px 40px;
+	background: linear-gradient(178.18deg, #f8a4bc -13.56%, #711ac8 158.3%);
+	border-radius: 100px;
+	transition: all 0.3s ease-in-out;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.order-button:hover {
+	background: linear-gradient(178.18deg, #f8a4bc -2.56%, #711ac8 128.3%);
+	box-shadow: 0px 25px 25px rgba(6, 7, 20, 0.1);
+	backdrop-filter: blur(7px);
+}
+
+/* CONTACT PERSON*/
+.contact-person {
+	color: #333;
+}
+
+.list-contact > li > a {
+	color: #333;
+}
+
+.list-contact > li > a:hover {
+	text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 1024px) {
+	.img-hero {
+		transform: translateX(1rem);
+	}
+	.hero-content {
+		padding-top: 5rem;
+		height: 80vh;
+	}
+	.slick-current::before {
+		width: 500px;
+		height: 750px;
+	}
+	.merch-wrapper {
+		transform: translateX(-10%);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.slick-current {
+		display: block;
+	}
+	.slick-current::before {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.merchandise,
+	.bundling {
+		min-height: min-content;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.img-wrapper {
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.slick-slide {
+		padding-top: 3rem;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	* {
+		font-size: 12px;
+	}
+	.button-merch,
+	.button-bundling {
+		padding: 0 2rem;
+	}
+}
