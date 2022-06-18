@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.slider-bg {
+    background: url('../../assets/img/comingsoon/BG.png');
+    min-height: 100vh;
+}
+
+.slider-area .hero__img img {
+    position: absolute;
+    top: -350px;
+    right: -150px !important;
+}
+
+.slider-area .hero__caption {
+    margin-top: -200px;
+    overflow: hidden;
+    position: relative;
+}

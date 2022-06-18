@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.underline-title {
+  height: 3px;
+  border-radius: 1rem;
+  width: 35%;
+  background-color: white;
+}
+
+.sponsors {
+  min-height: 70vh;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.7rem;
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.underline.colored {
+  background-color: #fd749b;
+}
+.underline.white {
+  background-color: white;
+}
+.underline {
+  width: 5%;
+  height: 3px;
+  padding: 0.5px;
+  margin: 0px auto;
+  border-radius: 1rem;
+}
+.speakers {
+  min-height: 70vh;
+}
+.testimonial img {
+  margin: 0px auto;
+}
