@@ -26,3 +26,18 @@
 - :white_check_mark: (Our Main Room)
 - :bangbang: (Section lainnya belum dibuat karena kemarin baru disuruh sampai Our Main Room)
 - :bangbang: (Font Family belum diatur)
+
+<h2> 4. About Us </h2>
+
+- ✅: (Hero)
+- ✅: (Vision, Mission, Grand Theme, Organizational Culture)
+- ‼️: belum full responsive
+- ‼️: animasi
+
+<h2> 5. Pre Event </h2>
+- ‼️: background
+
+<h2> 6. Partnership </h2>
+- ✅: hero
+- ‼️: background
+- ‼️: (section bawahnya belum)
