@@ -17,7 +17,7 @@
 - :white_check_mark: (Our Merchandise)
 - :white_check_mark: (Bundling Package)
 - :white_check_mark: (Contact Person)
-- :white_check_mark: (Responsive Phone - iPad - Lepi Fixed)
+- :bangbang: (Bg slick-current not responsive)
 - :bangbang: (Font Family belum diatur)
 
 <h2> 3. Main Event </h2>
