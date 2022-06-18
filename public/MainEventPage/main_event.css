@@ -1,0 +1,116 @@
+/* HERO */
+.bg-hero {
+	background-image: url("../../assets/img/main_event/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 60vh;
+	position: relative;
+}
+
+.hero-title {
+	font-size: 4rem;
+	font-weight: 700;
+	color: #524f4f;
+	mix-blend-mode: normal;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-transform: uppercase;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 4rem;
+	text-align: center;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.section-title::after {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 7px;
+	border-radius: 1.5rem;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+}
+
+/* MAIN ROOM */
+.main-room .card-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 3rem;
+}
+
+.main-room .card-wrapper > button {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.main-room .card {
+	max-width: 400px;
+	height: 300px;
+	border-radius: 12px;
+	transition: all 0.2s ease-in-out;
+}
+
+.main-room .card:hover {
+	opacity: 0.8;
+}
+
+.main-room .card > img {
+	object-fit: cover;
+	object-position: center;
+	height: 175px;
+	border-radius: 12px 12px 0 0;
+}
+
+.main-room .card .card-body {
+	border-radius: 0 0 12px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 1024px) {
+	.img-hero {
+		transform: translateX(1rem);
+	}
+	.hero-content {
+		padding-top: 5rem;
+		height: 80vh;
+	}
+	.slick-current::before {
+		width: 500px;
+		height: 750px;
+	}
+	.merch-wrapper {
+		transform: translateX(-10%);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.merchandise,
+	.bundling {
+		min-height: min-content;
+	}
+	.bg-hero {
+		min-height: 80vh;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	* {
+		font-size: 12px;
+	}
+}
