@@ -31,13 +31,13 @@
 
 - ✅: (Hero)
 - ✅: (Vision, Mission, Grand Theme, Organizational Culture)
-- ‼️: belum full responsive
-- ‼️: animasi
+- ‼️: (belum full responsive)
+- ‼️: (animasi)
 
 <h2> 5. Pre Event </h2>
-- ‼️: background
+- :bangbang: (background)
 
 <h2> 6. Partnership </h2>
-- ✅: hero
-- ‼️: background
+- ✅: (hero)
+- ‼️: (background)
 - ‼️: (section bawahnya belum)
