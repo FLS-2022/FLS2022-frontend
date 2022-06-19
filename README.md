@@ -41,17 +41,21 @@
 <h2> 4. About Us </h2>
 
 - ✅: (Hero)
-- ✅: (Vision, Mission, Grand Theme, Organizational Culture)
+- ✅: (Vision)
+- ✅: (Mission)
+- ✅: (Organizatinal Culture)
+- ✅: (Grand Theme)
 - ‼️: (belum full responsive)
-- ‼️: (animasi)
+- ✅: (animasi)
 
 <h2> 5. Pre Event </h2>
 - :bangbang: (background)
 
 <h2> 6. Partnership </h2>
 - ✅: (hero)
+- ✅: (booklet)
+- ‼️: (speakers)
 - ‼️: (background)
-- ‼️: (section bawahnya belum)
 
 <h2> 7. Documentation </h2>
 - :bangbang: (Kontent foto blom ada di figma)
