@@ -37,14 +37,18 @@
     <!-- Slick Slider  CSS -->
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-
+    <!-- lightbox -->
+    <link rel="stylesheet" href="plugins/lightbox/css/lightbox.min.css">
     <!-- magnific css -->
     <link rel="stylesheet" href="css/magnific.min.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- sweetslert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.all.min.js"></script>
 </head>
 
-<body style="background: #02081F;">
+<body style="background: #ffffff;">
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -74,20 +78,20 @@
                                     <li><a href="index.html">Home <div class="underline ml-lg-1 mt-lg-1">
                                             </div></a></li>
 
-                                    <li><a href="public/AboutPage/about.html">About Us</a></li>
-                                    <li><a href="about.html">Event</a>
+                                    <li><a href="./public/AboutPage/about.html">About Us</a></li>
+                                    <li><a href="./public/MainEventPage/main_event.html">Event</a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Pre-Event</a></li>
-                                            <li><a href="./public/MainEventPage/main_event.html">Event</a></li>
+                                            <li><a href="./public/404.html">Pre-Event</a></li>
+                                            <li><a href="./public/404.html">Event</a></li>
                                         </ul>
                                     </li>
                                     <li class="hot"><a href="./public/MerchPage/merch.html">Merch</a>
                                     </li>
-                                    <li><a href="public/PartnershipPage/partnership.html">Partnership</a>
+                                    <li><a href="./public/PartnershipPage/partnership.html">Partnership</a>
                                     </li>
-                                    <li><a href="#">Documentation</a>
+                                    <li><a href="./public/404.html">Documentation</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="./public/404.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -114,7 +118,7 @@
         <!-- Header End -->
     </header>
     <main>
-        <!-- Slider Area Start-->
+        <!-- Slider Area Pertama Start-->
         <div class="slider-area slider-bg ">
             <div class="slider-active ">
                 <div class="single-slider d-flex align-items-center slider-height ">
@@ -161,11 +165,11 @@
             </div>
             <!-- slider Social -->
             <div class="slider-social d-none d-md-block">
-                <a href="https://facebook.com/FutureLeaderSummit"><i class="fab fa-facebook-f wow bounceInRight"
+                <a href="https://www.twitter.com/FutureLeaderSummit/"><i class="fab fa-facebook-f wow bounceInRight"
                         data-wow-delay="0.8s"></i></a>
                 <a href="https://twitter.com/flsummit" target="_blank" rel="noopener noreferrer"><i
                         class="fab fa-twitter wow bounceInRight" data-wow-delay="0.9s"></i></a>
-                <a href="https://tiktok.com/flsummit"><i class="fab fa-tiktok wow bounceInRight"
+                <a href="https://www.tiktok.com/flsummit/"><i class="fab fa-tiktok wow bounceInRight"
                         data-wow-delay="1s"></i></a>
                 <a href="https://www.instagram.com/flsummit/" target="_blank" rel="noopener noreferrer"><i
                         class="fab fa-instagram wow bounceInRight" data-wow-delay="1.1s"></i></a>
@@ -174,24 +178,23 @@
         </div>
         <!-- Slider Area End -->
 
-        <!--All startups Start -->
-        <section class="all-starups-area section-padding2" style="background-color: #ffffff !important;">
+        <!--All startups Kedua About Start -->
+        <section class="all-starups-area " style="background-color: #ffffff !important;">
             <!--Right Contents  -->
-            <div class="starups-img wow fadeInUp" data-wow-delay="0.1s">
-                <img src="#" alt="">
+            <div class="starups-img wow fadeInUp " data-wow-delay="0.1s">
+                <img src="assets/img/hero/hero_content.png" alt="">
             </div>
             <!-- left Contents -->
             <div class="starups">
                 <div class="starups-details">
                     <!-- Section Tittle -->
-                    <!-- <div class="section-tittle section-tittle3 about wow fadeInUp" data-wow-delay="0.2s">
-                        <span style="color: #30A8E1;font-family: 'moholregular', sans-serif !important;">About The
-                            Event</span>
-                        <h2 style="color: whitesmoke;font-family: 'moholregular', sans-serif !important;">About Us!</h2>
-                    </div> -->
+                    <div class="section-tittle section-tittle3 about wow fadeInUp" data-wow-delay="0.2s">
+                        <h2 class="gradient_text" style="color: whitesmoke;font-size: 70px;">About Us!</h2>
+                        <span style="color: #FD749B;">What is FLS?</span>
+                    </div>
                     <!-- details caption -->
-                    <!-- <div class="details-caption wow fadeInUp" data-wow-delay="0.3s">
-                        <p style=" color: whitesmoke;"> Future Leader
+                    <div class="details-caption wow fadeInUp" data-wow-delay="0.4s">
+                        <p style=" color: rgb(0, 0, 0);"> Future Leader
                             Summit is a youth conference on a national scale that has been held since 2011. To prepare
                             young leaders from all over Indonesia, we provide a leadership platform that will be filled
                             with innovative and progressive ideas from youth so that they can contribute to the nation
@@ -199,7 +202,7 @@
 
 
                     </div>
-                    <a href="./ErrorPage/error404.html" class="btn wow fadeInUp" data-wow-delay="0.4s"
+                    <!-- <a href="./ErrorPage/error404.html" class="btn wow fadeInUp" data-wow-delay="0.4s"
                         style="background: transparent !important; border:#105395 solid 1.4px !important;text-transform: none !important;font-family: 'Work Sans', sans-serif !important;">Pelajari
                         lebih lanjut</a> -->
                 </div>
@@ -207,8 +210,488 @@
 
         </section>
         <!--All startups End -->
+        <!--Services Area ketiga news Start -->
+        <div class="services-area news_ section-paddingrandom fix"
+            style="background: url(./assets/img/banner/bghero2-2.png);background-size: cover;">
 
-        <!-- Support Area End -->
+            <div class="container">
+                <!-- Section Tittle -->
+
+                <div class="row">
+                    <div class="col-lg-12 mt-100 wow zoomIn news_mobile" data-wow-delay="0.1s">
+                        <div class="section-tittle text-right mt-20 mb-50">
+                            <h2 class="gradient_text " style="font-size: 48px ;font-weight: 800;">
+                                News
+                            </h2>
+                            <!-- 
+                            <h3
+                                style="color: whitesmoke !important;font-family: 'Work Sans', sans-serif !important;font-size:large;">
+                                Anforcom 2021 menyelenggarakan <br>
+                                dua kompetisi dan satu acara.</h3> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col news_card">
+                        <div class="card h-100 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="card-footer text-center">
+                                <h4 class="card-title text-center">Hot News</h4>
+                            </div>
+
+                            <div class="card-body">
+                                <img src="./assets/img/news/ReferenceIMG.png" class="card-img-top" alt="news">
+                                <p class="card-text text-center">Pengumuman IISMA 2022 Sudah Keluar</p>
+
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-primary">READ MORE</a>
+                                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col news_card">
+                        <div class="card h-100 wow fadeInUp" data-wow-delay="0.6s">
+
+                            <div class="card-footer text-center justify-content-center">
+                                <h5 class="card-title text-center">Trending Topics</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="./assets/img/news/ReferenceIMG-2.png" class="card-img-top" alt="news">
+                                <p class="card-text text-center">Hasil Final Thomas Cup 2022: Indonesia vs India 0-2</p>
+
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-primary">READ MORE</a>
+                                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col news_card">
+                        <div class="card h-100 wow fadeInUp" data-wow-delay="0.9s">
+                            <div class="card-footer text-center">
+                                <h5 class="card-title text-center">Latest News</h5>
+                            </div>
+
+                            <div class="card-body">
+                                <img src="./assets/img/news/ReferenceIMG3.png" class="card-img-top" alt="news">
+                                <p class="card-text text-center">Jokowi Bertemu Elon Musk
+                                    di Space X</p>
+
+                            </div>
+
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-primary">READ MORE</a>
+                                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Area End -->
+        <!--All startups 2 greetings keempat Start -->
+        <section class="all-starups-area greetings_"
+            style="background-color: #ffffff !important;margin-top: -45px;margin-bottom:-70px;">
+            <!-- left Contents -->
+            <div class="starups">
+                <div class="starups-details">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle section-tittle3 greeting_PL  wow fadeInUp" data-wow-delay="0.2s">
+                        <h2 class="gradient_text" style="color: whitesmoke;font-size: 70px;">Greetings PL</h2>
+                        <span style="color: #FD749B;"></span>
+                    </div>
+                    <!-- details caption -->
+
+                    <div class="details-caption2 wow fadeInUp" data-wow-delay="0.3s">
+                        <p style=" color: rgb(0, 0, 0);"> Future Leader Summit and the youth have great
+                            hopes in drawing the future of the nation. Therefore, let's collaborate in building the
+                            nation's hopes, let's pour out your inclusive innovations, and let's support each other to
+                            achieve a glorious future for the nation because our nation is our responsibility.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Right Contents  -->
+            <div class="starups-img2 wow fadeInUp" data-wow-delay="0.1s">
+                <img src="assets/img/hero/ketua.png" alt="">
+            </div>
+        </section>
+        <!--All startups 2 End -->
+        <!--Services Area 2 team kelima Start -->
+        <div class="services-area this_team section-paddingrandom2 fix"
+            style="background: url(./assets/img/banner/bghero2-3_rev.png);background-size: cover;">
+
+            <div class="container">
+                <!-- Section Tittle -->
+
+                <div class="row row_none">
+                    <div class="col-lg-12 mt-100 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="section-tittle text-right mt-20 mb-50">
+
+                            <h2 class="gradient_text " style="font-size: 48px ;">
+                                &nbsp
+                            </h2>
+                            <!-- 
+                                <h3
+                                    style="color: whitesmoke !important;font-family: 'Work Sans', sans-serif !important;font-size:large;">
+                                    Anforcom 2021 menyelenggarakan <br>
+                                    dua kompetisi dan satu acara.</h3> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="container shadow_box" style="display: block;box-sizing: border-box;">
+                        <!-- <div class="" data-wow-delay="0.1s" style="max-width: 600px;">
+
+                        </div> -->
+                        <div class="card mx-auto text-center wow fadeInUp ">
+                            <div class="card-header justify-content-center">
+
+                                <h2 class="mt-2 mb-2 gradient_text" style="font-weight: 800;">Meet The Team</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row g-4 justify-content-center">
+
+                                    <div class="col-lg-4 col-md-6 col-sm-12  wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="team-item">
+
+                                            <img class="img-fluid  w-100 " src="./assets/img/hero/team2.png" alt="">
+                                            <h5>Amaranggana Hang Arna P.</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 order-first wow fadeInUp"
+                                        data-wow-delay="0.3s">
+                                        <div class="team-item">
+                                            <img class="img-fluid  w-100 " src="./assets/img/hero/team.png" alt="">
+                                            <h5>Renasya Audiaputri</h5><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12  wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="team-item">
+                                            <img class="img-fluid  w-100 " src="./assets/img/hero/team1.png" alt="">
+                                            <h5>Aswin Nabila </h5><br>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="card-group justify-content-center align-items-center team_text  shadow_box">
+
+                        <div class="card no-border">
+                            <h5 class="card-title "> <br></h5>
+
+                            <div class="card-body ">
+                                <img src="/assets/img/hero/team1.png" class="card-img-top hover-zoom" alt="teams">
+                                <p class="card-text text-center">Amaranggana
+                                    Hang Arna P.</p>
+                            </div>
+
+                        </div>
+                        <div class="card no-border">
+                            <h5 class="card-title text-center ">Meet The Team</h5>
+
+                            <div class="card-body">
+                                <img src="/assets/img/hero/team.png" class="card-img-top" alt="teams">
+                                <p class="card-text text-center">Renasya Audiaputri</p>
+                            </div>
+
+                        </div>
+                        <div class="card no-border">
+                            <h5 class="card-title"><br></h5>
+
+                            <div class="card-body">
+                                <img src="/assets/img/hero/team2.png" class="card-img-top" alt="teams">
+                                <p class="card-text text-center">Aswin
+                                    Nabila</p>
+                            </div>
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Services Area End -->
+        <!--Services Area 3 team_ keenam Start -->
+        <div class="services-area the_teams_ section-paddingrandom2 fix"
+            style="background: url(./assets/img/banner/bghero2-4_rev.png);background-size: cover;">
+
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center align-items-center shadow_box">
+                    <div class="card text-center divisi wow bounceInUp" data-wow-delay="0.3s">
+
+                        <div class="card-body upz">
+                            <a href="./assets/img/hero/clevel.png" class="btn btn-primary" id="image-1"
+                                data-lightbox="the_team" data-title="C-Level">C-Level</a>
+                            <a href="./assets/img/hero/talent_acquistion.png" data-lightbox="the_team"
+                                data-title="Talent Acquistion" class="btn btn-primary" id="image-2">Talent
+                                Acquistion</a>
+                            <a href="./assets/img/hero/program.png" data-lightbox="the_team" data-title="Program"
+                                class="btn btn-primary" id="image-3">Program</a>
+                            <a href="./assets/img/hero/talent_develop.png" data-lightbox="the_team" data-title="Talent
+                                Development" class="btn btn-primary" id="image-4">Talent
+                                Development</a>
+                            <a href="./assets/img/hero/corpora.png" data-lightbox="the_team" data-title="Corporate
+                                Partnership" class="btn btn-primary" id="image-5">Corporate
+                                Partnership</a>
+                            <a href="./assets/img/hero/crefund.png" data-lightbox="the_team"
+                                data-title="Creative Funding" class="btn btn-primary" id="image-6">Creative Funding</a>
+                            <a href="./assets/img/hero/pid.png" data-lightbox="the_team" data-title="Person In
+                                Delegates" class="btn btn-primary" id="image-7">Person In
+                                Delegates</a>
+                            <a href="./assets/img/hero/cretech.png" data-lightbox="the_team" data-title="Creative And
+                                Technology" class="btn btn-primary" id="image-8">Creative And
+                                Technology</a>
+                            <a href="./assets/img/hero/laisoffice.png" data-lightbox="the_team"
+                                data-title="Liaison Officer" class="btn btn-primary" id="image-9">Liaison Officer</a>
+                            <a href="./assets/img/hero/ga.png" data-lightbox="the_team" data-title="General Affairs"
+                                class="btn btn-primary" id="image-10">General Affairs</a>
+                            <a href="./assets/img/hero/medcom.png" data-lightbox="the_team" data-title="Media And
+                                Communication" class="btn btn-primary" id="image-11">Media And
+                                Communication</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Area End -->
+        <!-- Blog Area Start -->
+        <section class="blogs-area " style="background: #ffffff !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle teaser text-center mb-40 wow zoomIn" data-wow-delay="0.1s">
+
+                            <h2 class="gradient_text">
+                                Teaser FLS
+                            </h2>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container wow zoomIn" data-wow-delay="0.2s">
+                        <div class="video-area section-bg2 d-flex align-items-center"
+                            data-background="./assets/img/banner/bg-video2.png">
+                            <div class="video-wrap position-relative">
+                                <div class="video-icon align-items-center">
+                                    <a class=" btn-icon " data-fslightbox="teaser"
+                                        href="https://www.youtube.com/watch?v=DxHOIoeZLnA"><i
+                                            class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Area End -->
+        <!--Services Area 4 feeds ketuju Start -->
+        <div class="services-area feeds_ section-padding-project fix"
+            style="background: url(./assets/img/banner/bghero2-5.png);background-size: cover;">
+
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12  wow zoomIn" data-wow-delay="0.1s">
+                        <div class="section-tittle text-left ">
+
+                            <h2 class="gradient_text mt-xl-5 ">
+                                Recently Feeds
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item  rounded h-100 p-4 " data-dot="01">
+                        <div class="position-relative mb-4 ">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-1.png" alt="">
+                            <a href="/assets/img/tes/project-1.png" data-lightbox="instagram_feeds"
+                                data-title="Conquering Your Quarter Life Crisis"><i class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Conquering Your Quarter Life Crisis</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="02">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-2.png" alt="">
+                            <a href="/assets/img/tes/project-2.png" data-lightbox="instagram_feeds"
+                                data-title="Merchandise : Bundle Package MERKURIUS"><i class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Merchandise : Bundle Package MERKURIUS</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="03">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-3.png" alt="">
+                            <a href="/assets/img/tes/project-2.png" data-lightbox="instagram_feeds"
+                                data-title="Competition Series Lead the Change : Lasts Long, Stay Strong"><i
+                                    class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Competition Series Lead the Change : Lasts Long, Stay Strong</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="04">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-4.png" alt="">
+                            <a href="/assets/img/tes/project-4.png" data-lightbox="instagram_feeds"
+                                data-title="Mei 2022 Recap"><i class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Mei 2022 Recap</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="05">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-5.png" alt="">
+                            <a href="/assets/img/tes/project-5.png" data-lightbox="instagram_feeds"
+                                data-title="5 Rekomendasi yang Bantu Kamu Belajar Arti Kepemimpinan!"><i
+                                    class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>5 Rekomendasi yang Bantu Kamu Belajar Arti Kepemimpinan!</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="06">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-6.png" alt="">
+                            <a href="/assets/img/tes/project-6.png" data-lightbox="instagram_feeds"
+                                data-title="SATURDARIES : Apa aja sih, rahasianya bisa diterima di 7 kampus top dunia?"><i
+                                    class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>SATURDARIES : Apa aja sih, rahasianya bisa diterima di 7 kampus top dunia?</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="07">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-7.png" alt="">
+                            <a href="/assets/img/tes/project-7.png" data-lightbox="instagram_feeds"
+                                data-title="Dealing With Burnout"><i class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Dealing With Burnout</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="08">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-8.png" alt="">
+                            <a href="/assets/img/tes/project-8.png" data-lightbox="instagram_feeds"
+                                data-title="Simak Tradisi Unik Perayaan Hari Raya Idul Fitri dari Penjuru Dunia"><i
+                                    class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Simak Tradisi Unik Perayaan Hari Raya Idul Fitri dari Penjuru Dunia</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="09">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-9.png" alt="">
+                            <a href="/assets/img/tes/project-9.png" data-lightbox="instagram_feeds"
+                                data-title="Hari Buruh Internasional : Apa Kabar Keadaan Buruh Indonesia?"><i
+                                    class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>Hari Buruh Internasional : Apa Kabar Keadaan Buruh Indonesia?</h6>
+                        <span>&nbsp</span>
+                    </div>
+                    <div class="project-item  rounded h-100 p-4" data-dot="10">
+                        <div class="position-relative mb-4">
+                            <img class="img-fluid rounded" src="/assets/img/tes/project-10.png" alt="">
+                            <a href="/assets/img/tes/project-10.png" data-lightbox="instagram_feeds"
+                                data-title="April Recap 2022"><i class="fa fa-eye fa-2x"></i></a>
+                        </div>
+                        <h6>April Recap 2022</h6>
+                        <span>&nbsp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Area 4End -->
+        <!--Services Area 5 testimoni kelapan Start -->
+        <div class="services-area testy_ fix  "
+            style="background: url(./assets/img/banner/bghero2-6.png);background-size:contain;">
+            <div class="container mb-50">
+                <div class="section-tittle mx-auto text-center wow fadeInUp" data-wow-delay="0.1s"
+                    style="max-width: 600px;">
+                    <div class=" d-inline-block  text-primary px-4 mb-3">
+                        &nbsp</div>
+                    <h2 class="mb-5 gradient_text">Testimoni</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 mb-2 mr-3  rounded-circle border p-1"
+                                src="assets/img/tes/dharam.png">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Dharma Setiawan</h6>
+                                <small>Peers in StudentsCatalyst COO Analyst in Akademis.id</small>
+                            </div>
+                        </div>
+                        <p>Future Leader Summit is one of the best youth summit I have attended. We can expand our
+                            connections discussing about specific issues in Indonesia with many notable speakers. By the
+                            end of the program, we can create real impact. Here, Financial Camp, the first ever
+                            financial webinar series, was bornt. I learnt many things in FLS especially leadership and
+                            communication skills. I really suggest all students in Indonesia to join this annual event
+                            because it will be really worth it!</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle mb-2 mr-3  border p-1"
+                                src="assets/img/tes/denius.png">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Denius</h6>
+                                <small>Content Creator Tips Kuliah Publication Intern at Ruangguru</small>
+                            </div>
+                        </div>
+                        <p>Tiga hari berturut-turut, aku menjalani rangkaian FLS 2021 dengan orang-orang hebat yang
+                            terpilih. Meskipun kegiatan sudah berlalu, aku masih bisa connect dengan alumni FLS hingga
+                            saat ini. Senangnya lagi, alumni FLS semakin bertumbuh di mana-mana sehingga networking-ku
+                            semakin worth.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 mb-2 mr-3  rounded-circle border p-1"
+                                src="assets/img/tes/shania.png">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Shania Indira Putri</h6>
+                                <small>Founder @rekan.aktif</small>
+                            </div>
+                        </div>
+                        <p>Future Leader Summit bagi saya bukan sekedar forum yang mempertemukan banyak anak muda, namun
+                            menjadi wadah dalam beraspirasi, bersinergi, dan berkontribusi secara nyata untuk impact
+                            yang lebih luas di Indonesia terutama dalam mencapai Indonesia Emas 2045. Dimana di dam FLS
+                            kita dilatih untuk cekatan menganalisa masalah, mengedepankan kerja sama, untuk menemukan
+                            problem solving sesuai perkembangan zaman dengan mentor yang mendampingi proses. Ekosistem
+                            pertemanan yang suportif dan positif menjadikan FLS menjadi kenangan yang sangat bermakna.
+                            Join FLS nggak bakal nyesel percaya deh!m</p>
+                    </div>
+                    <!-- <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3 "></i>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 mb-2 mr-3 rounded-circle border p-1"
+                                src="assets/img/tes/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">User Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos
+                            labore diam</p>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Services Area 5 End -->
+            <!-- Search domain Start -->
+            <section class=" search-domain-area section-bg pt-150 pb-100 wow fadeIn" data-wow-delay="0.1s"
+                data-background="assets/img/banner/bghero2-7.png" style="background-size: cover;">
+                <div class="container" style="display: block;box-sizing: border-box;">
+                    <h2 class="wow zoomIn text-center " data-wow-delay="0.2s"
+                        style="color: white;margin-bottom: -60px ;margin-top: 180px;font-weight: 600;">
+                        See You On Future Leader Summit 2022</h2>
+                </div>
+            </section>
+            <!-- Search domain End -->
     </main>
     <footer>
         <!-- Footer Start-->
@@ -268,7 +751,6 @@
                                             class="fab fa-tiktok wow  bounceInRight ml-lg-3"
                                             data-wow-delay="0.4s"></i><span class="ml-lg-3 wow fadeIn "
                                             style="font-size: 15px;" data-wow-delay="1.2s">@flsummit</span></a>
-
                                 </li>
                                 <li class="mt-lg-3"> <a href="https://www.facebook.com/FutureLeaderSummit"
                                         target="_blank" rel="noopener noreferrer"><i
@@ -284,13 +766,8 @@
                             </ul>
                             <div class="d-flex flex-column align-items-center align-items-lg-end">
                                 <div class="contact mt-5 mt-lg-0">
-
-
                                 </div>
                                 <div class=" logo d-flex mb-5 mb-lg-3 text-left">
-
-
-
                                 </div>
                                 <!-- <div class="address text-center text-lg-end text-white">
                                     <p style="color: white;text-align: right;">
@@ -369,7 +846,7 @@
     <script src="./assets/js/main.js"></script>
 
     <!-- Slick Slider -->
-    <!-- <script src="plugins/slick-carousel/slick/slick.min.js"></script> -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
 
     <!-- Counterup -->
     <script src="plugins/counterup/jquery.waypoints.min.js"></script>
@@ -388,6 +865,12 @@
 
     <!-- Form validator js -->
     <script src="./assets/js/form-validator.min.js"></script>
+
+    <!-- lightbox -->
+    <script src="/plugins/lightbox/js/lightbox.min.js"></script>
+    <script src="/plugins/lightbox/js/fslightbox.js"></script>
+
+
 </body>
 
 </html>
