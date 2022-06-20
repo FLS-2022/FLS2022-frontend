@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.underline-title {
+  height: 3px;
+  border-radius: 1rem;
+  width: 35%;
+  background-color: white;
+}
+
+.bg-sponsors {
+  min-height: 70vh;
+}
+
+.bg-speakers {
+  background: url("../../assets/img/partnership/bg-2.png");
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.bg-booklet {
+  background: url("../../assets/img/partnership/bg-3.png");
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.bg-booklet .content .booklet .right-content {
+  width: 50%;
+}
+
+.bg-booklet .content .booklet .right-content h5 {
+  font-size: 27px;
+}
+
+.bg-booklet .content .booklet .right-content .btn-linear {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 14px;
+  font-weight: 700;
+  background: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.7rem;
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.underline.colored {
+  background-color: #fd749b;
+}
+.underline.white {
+  background-color: white;
+}
+.underline {
+  width: 5%;
+  height: 3px;
+  padding: 0.5px;
+  margin: 0px auto;
+  border-radius: 1rem;
+}
+
+.testimonial img {
+  margin: 0px auto;
+}
+
+.content {
+  padding: 50px 100px;
+}
+
+@media (max-width: 998px) {
+  .bg-booklet .content .booklet .right-content {
+    width: 70%;
+    text-align: center;
+  }
+  .bg-booklet .content .booklet .right-content h5 {
+    font-size: 18px;
+  }
+}
