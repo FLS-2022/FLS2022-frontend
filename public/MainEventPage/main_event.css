@@ -81,6 +81,14 @@
 	align-items: center;
 }
 
+.modal.fade.show#modal_room {
+	padding-right: 0 !important;
+}
+
+body {
+	padding-right: 0 !important;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width: 1024px) {
 	.img-hero {
