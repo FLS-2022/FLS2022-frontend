@@ -1,23 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 
 .slider-bg {
-    background: url('../../assets/img/comingsoon/BG.png');
-    min-height: 100vh;
+  background: url("../../assets/img/comingsoon/bgg.png");
+  background-size: cover;
 }
 
 .slider-area .hero__img img {
-    position: absolute;
-    top: -350px;
-    right: -150px !important;
+  position: absolute;
+  top: -400px;
+  right: -150px;
 }
 
 .slider-area .hero__caption {
+  margin-top: -300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.comingsoon {
+  margin-top: -400px;
+  min-height: 70vh;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 96px;
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 998px) {
+  .comingsoon {
+    margin-top: 0px;
+  }
+  .slider-area .hero__img img {
+    display: none;
+  }
+  .slider-area .hero__caption {
     margin-top: -200px;
     overflow: hidden;
     position: relative;
+  }
+  .title {
+    font-size: 84px;
+  }
 }
