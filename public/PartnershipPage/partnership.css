@@ -7,16 +7,23 @@
   background-color: white;
 }
 
+.bg-top {
+  background: url("../../assets/img/partnership/bg.png");
+}
+
 .bg-sponsors {
   min-height: 70vh;
 }
 
 .bg-speakers {
-  background: url("../../assets/img/partnership/bg-2.png");
+  background: url("../../assets/img/partnership/b.png");
   background-size: cover;
-  min-height: 70vh;
+  min-height: 120vh;
 }
 
+.bg-speakers .heading h4 {
+  margin-top: 250px;
+}
 .bg-booklet {
   background: url("../../assets/img/partnership/bg-3.png");
   background-size: cover;
@@ -39,6 +46,10 @@
   font-size: 14px;
   font-weight: 700;
   background: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
+}
+
+.btn-linear:hover {
+  box-shadow: 5px 5px 16px #8424df;
 }
 
 .title {
@@ -71,12 +82,28 @@
   padding: 50px 100px;
 }
 
+.video-area {
+  border-radius: 0px;
+}
+
 @media (max-width: 998px) {
+  .bg-speakers {
+    background: url("../../assets/img/partnership/bg-2.png");
+  }
+  .bg-speakers .heading h4 {
+    margin-top: 10px;
+  }
   .bg-booklet .content .booklet .right-content {
     width: 70%;
     text-align: center;
   }
   .bg-booklet .content .booklet .right-content h5 {
     font-size: 18px;
+  }
+  .underline {
+    width: 10%;
+  }
+  .content {
+    padding: 50px;
   }
 }

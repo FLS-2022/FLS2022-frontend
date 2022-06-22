@@ -90,14 +90,9 @@
   margin-top: 3rem;
 }
 
-.main-content .container .content .cards {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .main-content .container .content .cards .card {
   width: 12rem;
+  margin-right: 1rem;
   border: none;
 }
 
@@ -120,6 +115,9 @@
 }
 
 @media (max-width: 998px) {
+  .underline {
+    width: 10%;
+  }
   .main-content {
     margin: 0px 10%;
   }
