@@ -9,6 +9,7 @@
 
 .bg-top {
   background: url("../../assets/img/partnership/bg.png");
+  background-size: cover;
 }
 
 .bg-sponsors {
@@ -16,18 +17,51 @@
 }
 
 .bg-speakers {
+  position: relative;
   background: url("../../assets/img/partnership/b.png");
   background-size: cover;
   min-height: 120vh;
 }
 
+.speakers {
+  margin-top: 40px;
+}
+
 .bg-speakers .heading h4 {
   margin-top: 250px;
 }
+
+.button-speakers {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next,
+.prev {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #ffffff;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 .bg-booklet {
-  background: url("../../assets/img/partnership/bg-3.png");
+  margin-top: 5rem;
+  background: url("../../assets/img/partnership/Group\ 10042.png");
   background-size: cover;
-  min-height: 70vh;
+  min-height: 150vh;
+}
+
+.bg-booklet .content {
+  padding-top: 220px;
 }
 
 .bg-booklet .content .booklet .right-content {
@@ -45,6 +79,7 @@
   padding: 0.7rem 2rem;
   font-size: 14px;
   font-weight: 700;
+  transition: all 0.3s ease-in-out;
   background: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
 }
 
@@ -86,12 +121,32 @@
   border-radius: 0px;
 }
 
+@media (max-width: 1024px) {
+  .bg-speakers {
+    min-height: 100vh;
+  }
+  .speakers {
+    margin-top: 70px;
+  }
+  .button-speakers {
+    top: 50%;
+  }
+}
+
 @media (max-width: 998px) {
   .bg-speakers {
     background: url("../../assets/img/partnership/bg-2.png");
   }
   .bg-speakers .heading h4 {
     margin-top: 10px;
+  }
+  .bg-booklet {
+    background: url("../../assets/img/partnership/bg-3.png");
+    background-size: cover;
+    height: 100%;
+  }
+  .bg-booklet .content {
+    padding-top: 50px;
   }
   .bg-booklet .content .booklet .right-content {
     width: 70%;
@@ -105,5 +160,12 @@
   }
   .content {
     padding: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .button-speakers {
+    padding: 0rem 1rem;
+    top: 45%;
   }
 }
