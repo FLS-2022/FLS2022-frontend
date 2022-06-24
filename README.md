@@ -54,8 +54,9 @@
 <h2> 6. Partnership </h2>
 - ✅: (hero)
 - ✅: (booklet)
-- ‼️: (slider)
+- ✅: (slider)
 - ✅: (background)
+- ‼️: foto & video belum dikasih
 
 <h2> 7. Documentation </h2>
 - :bangbang: (Kontent foto blom ada di figma)
