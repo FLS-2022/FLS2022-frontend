@@ -48,9 +48,7 @@
 	margin-top: 3rem;
 }
 
-.main-room .card-wrapper > button {
-	width: 100%;
-	height: 100%;
+.main-room .card-wrapper .card > button {
 	border: none;
 	background: none;
 	cursor: pointer;
@@ -58,9 +56,9 @@
 
 .main-room .card {
 	max-width: 400px;
-	height: 300px;
 	border-radius: 12px;
 	transition: all 0.2s ease-in-out;
+	border: none;
 }
 
 .main-room .card:hover {
