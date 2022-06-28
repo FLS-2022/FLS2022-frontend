@@ -197,7 +197,8 @@ body {
 		display: block;
 	}
 	.slick-current::before {
-		width: 500px;
+		width: 400px;
+		height: 750px;
 	}
 }
 
