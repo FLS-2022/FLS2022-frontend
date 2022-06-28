@@ -175,6 +175,17 @@ body {
 }
 
 /* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+	.slick-current {
+		display: block;
+	}
+	.slick-current::before {
+		width: 400px;
+		height: 750px;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.img-hero {
 		transform: translateX(1rem);
@@ -189,16 +200,6 @@ body {
 	}
 	.merch-wrapper {
 		transform: translateX(-10%);
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.slick-current {
-		display: block;
-	}
-	.slick-current::before {
-		width: 400px;
-		height: 750px;
 	}
 }
 
