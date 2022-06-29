@@ -4,18 +4,18 @@
 
 <h2> 1. Main </h2>
 
-- :white_check_mark: (Header - Footer)
-- :white_check_mark: (Slider + Animasi)
+- :white_check_mark: [UPDATED] (Header - Footer)
+- :white_check_mark: [UPDATED] (Slider + Animasi)
 - :white_check_mark: (Custom Scrollbar)
 - :white_check_mark: (Back to Top Button)
 - :white_check_mark: (About)
-- :white_check_mark: (Greetings)
-- :white_check_mark: (Team & Member + fixed popup divisi)
+- :white_check_mark: [UPDATED] (Greetings)
+- :white_check_mark: [UPDATED] (Team & Member + fixed popup divisi)
 - :white_check_mark: (Teaser + fixed popup video)
-- :white_check_mark: (Feeds + owl carousel)
-- :white_check_mark: (Testimoni + data user)
-- :white_check_mark: (All Responsive Phone - iPad - Lepi Fixed)
-- :bangbang: (Section Bg HP-iPad belum 100% fix but still can use it, (gada design itu di figma)
+- :white_check_mark: [UPDATED] (Feeds + owl carousel)
+- :white_check_mark: [UPDATED] (Testimoni + data user)
+- :white_check_mark: [UPDATED] (All Responsive Phone - iPad - Lepi Fixed)
+- :bangbang: Link Feeds
 
 <h2> 1.1. 404 PAGE </h2>
 
