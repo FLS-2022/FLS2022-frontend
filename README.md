@@ -15,7 +15,7 @@
 - :white_check_mark: [UPDATED] (Feeds + owl carousel)
 - :white_check_mark: [UPDATED] (Testimoni + data user)
 - :white_check_mark: [UPDATED] (All Responsive Phone - iPad - Lepi Fixed)
-- :bangbang: Link Feeds
+- :bangbang: Link Feeds (nunggu data)
 
 <h2> 1.1. 404 PAGE </h2>
 
