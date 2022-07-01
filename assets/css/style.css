@@ -2592,13 +2592,17 @@ html::-webkit-scrollbar-thumb:active {
 		padding: 0px 10px;
 	}
 
-	.header-area .main-header .underline {
-		background-color: #fd749b;
-		border: 0.2px solid #fd749b;
-		border-radius: 25px;
-		width: 85%;
-		padding: 0.5px 0.5px;
-	}
+    .header-area .main-header .underline {
+        background-color: #FD749B;
+        border: 0.2px solid #FD749B;
+        border-radius: 25px;
+        width: 85%;
+        padding: 0.5px 0.5px;
+    }
+
+    .header-area .main-header .doc_ .underline {
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2947,8 +2951,9 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 /* competition */
-.slider-bg-compt {
-	background: #02081f;
+.slider-bg-doc {
+    background: url(../img/bg_type_doc.png);
+    background-size: cover;
 }
 
 .slider-area .hero__caption span {
@@ -3078,69 +3083,80 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-	.slider-height {
-		min-height: 800px;
-	}
+    .slider-height {
+        min-height: 800px
+    }
 
-	.slider-area .card {
-		margin-top: -80px;
-		margin-left: -55px;
-		width: 110%;
-		padding: 110px 70px 30px 70px;
-		background: rgba(255, 255, 255, 0.35);
-		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-		backdrop-filter: blur(7px);
-		-webkit-backdrop-filter: blur(7px);
-		border-radius: 50px;
-	}
+    .slider-area .card {
+        margin-top: -80px;
+        margin-left: -55px;
+        width: 110%;
+        padding: 110px 70px 30px 70px;
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        border-radius: 50px;
+    }
 
-	.slider-area .hero__caption .hua1 {
-		padding-left: 25px;
-		width: 80%;
-		background-color: #ffffff;
-		border-radius: 40px;
-	}
+    .documentation__ .card {
+        padding: 180px 70px 90px 70px;
+    }
 
-	.slider-area .hero__caption h1 {
-		background: linear-gradient(
-			90deg,
-			rgba(231, 124, 125, 1) 0%,
-			rgba(159, 145, 226, 1) 50%,
-			rgba(50, 205, 186, 1) 100%
-		);
-		-webkit-background-clip: text;
-		padding-left: 5px;
-		-webkit-text-fill-color: transparent;
-		border-radius: 40px;
-		font-size: 65px;
-		font-weight: 700;
-		color: rgb(134, 49, 49);
-		font-family: "moholregular", sans-serif;
-		line-height: 1.3;
-		margin-bottom: 20px;
-	}
+    .slider-area .hero__caption .hua1 {
+        padding-left: 25px;
+        width: 80%;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
 
-	.slider-area .hero__caption p {
-		background: linear-gradient(
-			90deg,
-			rgba(231, 124, 125, 1) 0%,
-			rgba(159, 145, 226, 1) 50%,
-			rgba(50, 205, 186, 1) 100%
-		);
-		margin-top: 40px;
-		width: 88%;
-		padding: 10px 0px 10px 35px;
-		border-radius: 40px;
-		margin-bottom: 24px;
-		/* padding-right: 155px; */
-		color: #fff;
-	}
+    .documentation__ .hero__caption .hua1 {
+        padding-left: 25px;
+        width: 95%;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
 
-	.slider-area .hero__img img {
-		position: absolute;
-		top: -240px;
-		right: -160px;
-	}
+    .documentation__ .hero__caption .siki_ {
+        width: 68%;
+    }
+
+    .documentation__ .hero__caption h1 {
+        font-size: 50px !important;
+    }
+
+    .slider-area .hero__caption h1 {
+        background: linear-gradient(90deg, rgba(231, 124, 125, 1) 0%, rgba(159, 145, 226, 1) 50%, rgba(50, 205, 186, 1) 100%);
+        -webkit-background-clip: text;
+        padding-left: 5px;
+        -webkit-text-fill-color: transparent;
+        border-radius: 40px;
+        font-size: 65px;
+        font-weight: 700;
+        color: rgb(134, 49, 49);
+        font-family: "moholregular", sans-serif;
+        line-height: 1.3;
+        margin-bottom: 20px
+    }
+
+    .slider-area .hero__caption p {
+        background: linear-gradient(90deg, rgba(231, 124, 125, 1) 0%, rgba(159, 145, 226, 1) 50%, rgba(50, 205, 186, 1) 100%);
+        margin-top: 40px;
+        width: 88%;
+        padding: 10px 0px 10px 35px;
+        border-radius: 40px;
+        margin-bottom: 24px;
+        /* padding-right: 155px; */
+        color: #fff
+    }
+
+
+    .slider-area .hero__img img {
+        position: absolute;
+        top: -240px;
+        right: -160px;
+
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -3245,49 +3261,62 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media (max-width: 575px) {
-	.slider-height {
-		height: 900px;
-	}
+    .slider-height {
+        height: 900px;
 
-	.slider-area .card {
-		margin-top: -80px;
-		/* margin-left: -55px; */
-		width: 100%;
-		padding: 56px 0px 40px 0px;
-	}
+    }
 
-	.slider-area .hero__caption .hua1 {
-		padding-left: 25px;
-		/* width: 80%; */
-	}
+    .slider-area .card {
+        margin-top: -80px;
+        /* margin-left: -55px; */
+        width: 100%;
+        padding: 56px 0px 40px 0px;
+    }
 
-	.slider-area .hero__caption h1 {
-		padding-left: 5px;
-		/* font-size: 65px; */
-		/* margin-bottom: 20px */
-	}
+    .slider-area .hero__caption .hua1 {
+        padding-left: 25px;
+        /* width: 80%; */
+    }
 
-	.slider-area .hero__caption p {
-		margin-top: 40px;
-		width: 100%;
-		padding: 10px 0px 10px 35px;
-		/* padding-right: 155px; */
-	}
+    .slider-area .hero__caption h1 {
+        padding-left: 5px;
+        /* font-size: 65px; */
+        /* margin-bottom: 20px */
+    }
 
-	.slider-area .hero__caption p {
-		margin-bottom: 54px;
-		padding-right: 0px;
-	}
+    .slider-area .hero__caption p {
+        margin-top: 40px;
+        width: 100%;
+        padding: 10px 0px 10px 35px;
+        /* padding-right: 155px; */
+    }
 
-	.slider-area .hero-cap {
-		padding-top: 50px;
-	}
+    .slider-area .hero__caption p {
+        margin-bottom: 54px;
+        padding-right: 0px
+    }
 
-	.slider-area .hero-cap h2 {
-		font-size: 40px;
-	}
+    .documentation__ .slider-active_doc .card .card-body .hero__caption h1 {
+        font-size: 35px !important;
+        padding-left: 9px;
+    }
 
-	/* .slider-area .hero__caption {
+    .documentation__ .slider-active_doc .card .card-body .hero__caption p {
+        font-size: 14px !important;
+        padding-left: 30px !important;
+    }
+
+
+
+    .slider-area .hero-cap {
+        padding-top: 50px
+    }
+
+    .slider-area .hero-cap h2 {
+        font-size: 40px
+    }
+
+    /* .slider-area .hero__caption {
         padding-top: 76px;
     } */
 
@@ -3775,6 +3804,35 @@ html::-webkit-scrollbar-thumb:active {
 	font-weight: 600;
 }
 
+.documentation2__ .card-title {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'moholregular', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.documentation2__ nav ul li a {
+    margin-top: 50px;
+    border-radius: 50px !important;
+    margin-right: 10px;
+}
+
+.documentation2__ nav ul li a:hover {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    color: white;
+}
+
+.clicked_pagination {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    color: white;
+}
+
+.documentation2__ nav ul li .nexxt {
+    border-radius: 50px !important;
+}
+
 .services-area .card-footer {
 	background: rgb(255, 255, 255);
 	border: none;
@@ -3785,19 +3843,17 @@ html::-webkit-scrollbar-thumb:active {
 	margin-bottom: 5px;
 }
 
-.services-area .card-footer a {
-	background: linear-gradient(
-		0deg,
-		rgba(40, 26, 200, 1) 0%,
-		rgba(50, 205, 186, 1) 100%
-	);
-	border-radius: 50px;
-	border: none;
-	padding: 10px 20px;
+.services-area .card-footer a,
+.services-area .btn_more a {
+    background: linear-gradient(0deg, rgba(40, 26, 200, 1) 0%, rgba(50, 205, 186, 1) 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
 }
 
-.services-area .card-footer a:hover {
-	background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+.services-area .card-footer a:hover,
+.services-area .btn_more a:hover {
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
 }
 
 .services-area .card-body {
@@ -4228,6 +4284,7 @@ html::-webkit-scrollbar-thumb:active {
 	font-size: 20px;
 	font-weight: 600;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.services-area .team_text p {

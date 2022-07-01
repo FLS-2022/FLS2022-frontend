@@ -341,6 +341,18 @@
     horizontalScrolling: false
   });
 
+  // data-switch
+  // $('[data-switch]').on('click', function (e) {
+  //   var $page = $('#dokumentasiww'),
+  //     blockToShow = e.currentTarget.getAttribute('data-switch');
+
+  //   // Hide all children.
+  //   $page.children().hide();
+
+  //   // And show the requested component.
+  //   $page.children(blockToShow).show();
+  // });
+
 
 
 })(jQuery);
