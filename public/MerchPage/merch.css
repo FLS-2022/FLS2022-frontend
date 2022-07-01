@@ -1,26 +1,8 @@
-/* HERO */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap");
+
 body {
 	color: #333;
 }
-.bg-hero {
-	background-image: url("../../assets/img/merch/bg-hero.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 100vh;
-	position: relative;
-}
-
-.hero-title {
-	font-size: 3.5rem;
-	font-weight: bold;
-	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
-	color: #fff;
-}
-
 .section-title {
 	font-weight: bold;
 	font-size: 3rem;
@@ -43,54 +25,92 @@ body {
 	margin-top: 0.5rem;
 }
 
+/* HERO */
+.merch-hero-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-bg-merch {
+	background: url(../../assets/img/bg_type3.png);
+	background-size: cover;
+}
+
 /* MERCHANDISE */
 .merchandise {
-	min-height: 100vh;
+	height: 100vh;
+	margin-top: 110px;
 	padding: 1rem 0;
 	position: relative;
 }
-.slick-slide {
-	margin: 1rem 0;
+
+.merch-page .responsive-slick-merch {
+	min-height: 90vh !important;
 }
 
-.slick-current {
+.merch-page .slick-list {
+	min-height: 90vh !important;
+}
+.merch-page .slick-track {
+	margin: 2rem -15rem 0 -15rem;
+}
+
+.merch-page .slick-slide {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+	width: 30vw;
+}
+
+.merch-page .slick-current {
 	position: relative;
-	height: 750px;
+	height: 100%;
 }
 
-.slick-current::before {
+.merch-page .slick-current::before {
 	content: "";
 	position: absolute;
 	top: 0;
 	z-index: -1;
-	width: 100%;
-	height: 700px;
+	height: calc(100% + 2rem);
+	width: 25vw;
 	background-color: #fff;
 	box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
 	border-radius: 140px;
 }
 
 .img-wrapper {
-	height: 500px;
+	height: 40vh;
+	width: 25vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.padding-image {
-	padding: 5rem 2rem;
+.img-wrapper > img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .merch-wrapper {
 	text-align: center;
-	margin-top: 1.25rem;
+	margin: 0.5rem 0;
 }
 
 .merch-title {
 	font-size: 2.25rem;
-	font-weight: semi-bold;
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
 }
 
 .merch-price {
 	font-size: 2rem;
-	font-weight: semi-bold;
+	font-family: "Sora", sans-serif;
+	font-weight: 300;
 	color: #d60000;
 }
 
@@ -128,12 +148,11 @@ body {
 
 /* BUNDLING PACKAGE */
 .bundling {
-	min-height: 100vh;
+	height: 105vh;
 	position: relative;
 	background-image: url("../../assets/img/merch/bg-bundling.png");
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -175,51 +194,35 @@ body {
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+	.merch-page .slick-slide {
+		padding-top: 3rem;
+	}
 
-@media screen and (min-width: 768px) {
-	.slick-current {
+	.merch-page .slick-current {
 		display: block;
 	}
-	.slick-current::before {
+	.merch-page .slick-current::before {
 		width: 400px;
-		height: 750px;
+		top: 8%;
 	}
-}
-
-@media screen and (min-width: 1024px) {
-	.img-hero {
-		transform: translateX(1rem);
-	}
-	.hero-content {
-		padding-top: 5rem;
-		height: 80vh;
-	}
-	.slick-current::before {
-		width: 500px;
-		height: 750px;
-	}
-	.merch-wrapper {
-		transform: translateX(-10%);
-	}
-}
-
-@media screen and (max-width: 1024px) {
-	.merchandise,
-	.bundling {
-		min-height: min-content;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.img-wrapper {
-		height: 400px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.slick-slide {
+	.merch-page .slick-track {
+		margin: 0 10rem;
 		padding-top: 3rem;
+	}
+	.merch-page .slick-slide {
+		width: 42vw;
+	}
+	.merch-page .img-wrapper {
+		width: 42vw;
+	}
+	.merch-page .responsive-slick-merch {
+		margin-top: 4rem;
+		min-height: 90vh !important;
+	}
+
+	.merch-page .slick-list {
+		min-height: 90vh !important;
 	}
 }
 
@@ -230,5 +233,15 @@ body {
 	.button-merch,
 	.button-bundling {
 		padding: 0 2rem;
+	}
+	.merch-page .slick-track {
+		margin: 0;
+		padding-top: 3rem;
+	}
+	.merch-page .slick-slide {
+		width: 100vw;
+	}
+	.merch-page .img-wrapper {
+		width: 100vw;
 	}
 }
