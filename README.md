@@ -22,6 +22,11 @@
 - :white_check_mark: (Content)
 - :white_check_mark: (Responsive Phone - iPad - Lepi Fixed)
 
+<h2> 1.2. Articles PAGE </h2>
+
+- :white_check_mark: (Content)
+- :white_check_mark: (Responsive Phone - iPad - Lepi Fixed)
+
 <h2> 2. Merch </h2>
 
 - :white_check_mark: (Hero)
@@ -60,4 +65,9 @@
 - ‼️: foto & video belum dikasih
 
 <h2> 7. Documentation </h2>
-- :bangbang: (Kontent foto blom ada di figma)
+
+- :white_check_mark: (Content)
+- :white_check_mark: (Responsive Phone - iPad - Lepi Fixed)
+
+
+
