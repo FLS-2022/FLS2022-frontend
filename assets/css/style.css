@@ -2580,6 +2580,10 @@ html::-webkit-scrollbar-thumb:active {
         width: 85%;
         padding: 0.5px 0.5px;
     }
+
+    .header-area .main-header .doc_ .underline {
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2930,8 +2934,9 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 /* competition */
-.slider-bg-compt {
-    background: #02081F;
+.slider-bg-doc {
+    background: url(../img/bg_type_doc.png);
+    background-size: cover;
 }
 
 
@@ -3072,11 +3077,30 @@ html::-webkit-scrollbar-thumb:active {
         border-radius: 50px;
     }
 
+    .documentation__ .card {
+        padding: 180px 70px 90px 70px;
+    }
+
     .slider-area .hero__caption .hua1 {
         padding-left: 25px;
         width: 80%;
         background-color: #ffffff;
         border-radius: 40px;
+    }
+
+    .documentation__ .hero__caption .hua1 {
+        padding-left: 25px;
+        width: 95%;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
+
+    .documentation__ .hero__caption .siki_ {
+        width: 68%;
+    }
+
+    .documentation__ .hero__caption h1 {
+        font-size: 50px !important;
     }
 
     .slider-area .hero__caption h1 {
@@ -3251,6 +3275,18 @@ html::-webkit-scrollbar-thumb:active {
         margin-bottom: 54px;
         padding-right: 0px
     }
+
+    .documentation__ .slider-active_doc .card .card-body .hero__caption h1 {
+        font-size: 35px !important;
+        padding-left: 9px;
+    }
+
+    .documentation__ .slider-active_doc .card .card-body .hero__caption p {
+        font-size: 14px !important;
+        padding-left: 30px !important;
+    }
+
+
 
     .slider-area .hero-cap {
         padding-top: 50px
@@ -3755,6 +3791,35 @@ html::-webkit-scrollbar-thumb:active {
 
 }
 
+.documentation2__ .card-title {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'moholregular', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.documentation2__ nav ul li a {
+    margin-top: 50px;
+    border-radius: 50px !important;
+    margin-right: 10px;
+}
+
+.documentation2__ nav ul li a:hover {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    color: white;
+}
+
+.clicked_pagination {
+    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    color: white;
+}
+
+.documentation2__ nav ul li .nexxt {
+    border-radius: 50px !important;
+}
+
 .services-area .card-footer {
     background: rgb(255, 255, 255);
     border: none;
@@ -3765,14 +3830,16 @@ html::-webkit-scrollbar-thumb:active {
     margin-bottom: 5px;
 }
 
-.services-area .card-footer a {
+.services-area .card-footer a,
+.services-area .btn_more a {
     background: linear-gradient(0deg, rgba(40, 26, 200, 1) 0%, rgba(50, 205, 186, 1) 100%);
     border-radius: 50px;
     border: none;
     padding: 10px 20px;
 }
 
-.services-area .card-footer a:hover {
+.services-area .card-footer a:hover,
+.services-area .btn_more a:hover {
     background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
 }
 
@@ -4196,6 +4263,7 @@ html::-webkit-scrollbar-thumb:active {
     font-size: 20px;
     font-weight: 600;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .services-area .team_text p {
