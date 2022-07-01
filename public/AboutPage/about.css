@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 .bg-about {
-  background-image: url(../../assets/img/about/bg-about.png);
+  background-image: url(../../assets/img/about/bg-top.png);
   background-size: cover;
-  height: 100vh;
+  margin-bottom: 100px;
 }
 
 .slider-area .hero__img img {
   position: absolute;
-  top: -280px;
   right: -20px !important;
 }
 
 .slider-area .hero__caption {
-  margin-top: -200px;
   overflow: hidden;
   position: relative;
 }
@@ -29,19 +27,10 @@
 
 .slider-area .hero__caption p {
   margin-bottom: 54px;
-  padding-right: 155px;
-  color: #333333;
+  padding-right: 50px;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 16px !important;
-}
-
-.slider-area .hero__caption h1 {
-  margin-bottom: 20px;
-  color: #ffffff;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  font-size: 64px;
-  text-shadow: 2px 4px 4px #979696;
 }
 
 .main-content {
@@ -90,31 +79,51 @@
   margin-top: 3rem;
 }
 
-.main-content .container .content .cards .card {
-  width: 12rem;
-  margin-right: 1rem;
-  border: none;
-}
-
-.main-content .container .content .cards .card .card-body h5 {
-  color: #554e4e;
-  font-weight: 700;
-}
-
-.main-content .container .content .cards .card .card-body p {
-  font-size: 16px !important;
+.organizational-content .text p {
+  font-size: 16px;
   color: #333333;
-  line-height: normal;
 }
 
 .grand-theme {
-  background: url(../../assets/img/about/image-crop.png);
+  background: url(../../assets/img/about/bg-grand.png);
+  overflow-x: hidden;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 150vh;
   width: 100%;
 }
 
+.grand-theme .grand-content {
+  padding-top: 150px;
+}
+
+.grand-theme .headline {
+  margin-top: 150px;
+  padding: 70px 0px;
+}
+.grand-theme h3 {
+  width: 500px;
+  background-color: white;
+  border-radius: 20rem;
+  padding: 5px;
+  color: #9146b2;
+  font-weight: bold;
+}
+
+.grand-theme .headline h1 {
+  font-size: 80px;
+  font-weight: bold;
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  filter: drop-shadow(3px 3px #fff);
+}
+
 @media (max-width: 998px) {
+  .menu-wrapper {
+    margin-top: 1rem;
+  }
   .underline {
     width: 10%;
   }
@@ -136,5 +145,22 @@
 
   .main-content .container .content .cards .card {
     width: 100%;
+  }
+
+  .grand-theme .grand-content {
+    padding-top: 50px;
+  }
+
+  .grand-theme .headline {
+    padding: 20px 0px;
+  }
+
+  .grand-theme .headline h1 {
+    font-size: 40px;
+  }
+
+  .grand-theme .tagline h3 {
+    width: 400px;
+    font-size: 20px;
   }
 }
