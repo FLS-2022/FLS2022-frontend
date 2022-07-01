@@ -6,25 +6,17 @@ body {
 }
 
 .slider-bg {
-  background: url("../../assets/img/comingsoon/bgg.png");
+  background: url("../../assets/img/comingsoon/bg-top.png");
   background-size: cover;
 }
 
 .slider-area .hero__img img {
   position: absolute;
-  top: -400px;
-  right: -150px;
 }
 
 .slider-area .hero__caption {
-  margin-top: -300px;
   overflow: hidden;
   position: relative;
-}
-
-.comingsoon {
-  margin-top: -400px;
-  min-height: 70vh;
 }
 
 .title {
@@ -35,20 +27,73 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.competition-series {
+  margin-top: 100px;
+  padding: 70px 0px;
+}
+
+.competition-series h1 {
+  font-size: 60px;
+}
+
+.underline {
+  margin: 0px auto;
+  background-color: #fd749b;
+  border: 0.2px solid #fd749b;
+  border-radius: 25px;
+  width: 7%;
+  padding: 0.5px 0.5px;
+}
+
+.posters {
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.bg-posters {
+  background: url("../../assets/img/comingsoon/bg-poster.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.posters .poster {
+  margin: 0rem 1rem;
+}
+.poster img {
+  width: 350px;
+  height: 450px;
+  margin: 0px auto;
+}
+.btn-linear {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
+}
 
 @media (max-width: 998px) {
-  .comingsoon {
-    margin-top: 0px;
+  .menu-wrapper {
+    margin-top: 1rem;
   }
   .slider-area .hero__img img {
     display: none;
   }
   .slider-area .hero__caption {
-    margin-top: -200px;
     overflow: hidden;
     position: relative;
   }
   .title {
     font-size: 84px;
+  }
+  .posters {
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .posters .poster {
+    margin-top: 3rem;
   }
 }

@@ -1,56 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-.underline-title {
-  height: 3px;
-  border-radius: 1rem;
-  width: 35%;
-  background-color: white;
-}
-
 .bg-top {
-  background: url("../../assets/img/partnership/bg.png");
+  background: url("../../assets/img/partnership/bg\ 1\ png\ 1.png");
   background-size: cover;
 }
-
+.slider-area .hero__img img {
+  position: absolute;
+  right: -20px !important;
+}
 .bg-sponsors {
   min-height: 70vh;
 }
 
 .bg-speakers {
-  position: relative;
-  background: url("../../assets/img/partnership/b.png");
+  background: url("../../assets/img/partnership/bg-past-speakers.png");
   background-size: cover;
   min-height: 120vh;
-}
-
-.speakers {
-  margin-top: 40px;
-}
-
-.bg-speakers .heading h4 {
-  margin-top: 250px;
-}
-
-.button-speakers {
-  position: absolute;
-  top: 65%;
-  transform: translateY(-50%);
-  width: 100%;
-  padding: 0rem 5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.next,
-.prev {
-  cursor: pointer;
-  outline: none;
-  border: none;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  background: #ffffff;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  padding: 250px 0px 70px 0px;
 }
 
 .bg-booklet {
@@ -134,8 +100,12 @@
 }
 
 @media (max-width: 998px) {
+  .menu-wrapper {
+    margin-top: 1rem;
+  }
   .bg-speakers {
     background: url("../../assets/img/partnership/bg-2.png");
+    padding: 20px 0px;
   }
   .bg-speakers .heading h4 {
     margin-top: 10px;
