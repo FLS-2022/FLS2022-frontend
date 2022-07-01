@@ -60,4 +60,9 @@
 - ‼️: foto & video belum dikasih
 
 <h2> 7. Documentation </h2>
-- :bangbang: (Kontent foto blom ada di figma)
+
+- :white_check_mark: (Content)
+- :white_check_mark: (Responsive Phone - iPad - Lepi Fixed)
+
+
+
