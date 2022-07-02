@@ -100,14 +100,6 @@
   margin-top: 150px;
   padding: 70px 0px;
 }
-.grand-theme h3 {
-  width: 500px;
-  background-color: white;
-  border-radius: 20rem;
-  padding: 5px;
-  color: #9146b2;
-  font-weight: bold;
-}
 
 .grand-theme .headline h1 {
   font-size: 80px;
@@ -121,9 +113,6 @@
 }
 
 @media (max-width: 998px) {
-  .menu-wrapper {
-    margin-top: 1rem;
-  }
   .underline {
     width: 10%;
   }
@@ -147,8 +136,12 @@
     width: 100%;
   }
 
+  .grand-theme {
+    min-height: 100vh;
+    margin-top: 50px;
+  }
   .grand-theme .grand-content {
-    padding-top: 50px;
+    padding-top: 0px;
   }
 
   .grand-theme .headline {
@@ -157,10 +150,5 @@
 
   .grand-theme .headline h1 {
     font-size: 40px;
-  }
-
-  .grand-theme .tagline h3 {
-    width: 400px;
-    font-size: 20px;
   }
 }
