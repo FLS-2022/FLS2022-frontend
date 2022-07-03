@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-.slider-bg {
+/* .slider-bg {
   background: url("../../assets/img/partnership/bg\ 1\ png\ 1.png");
   background-size: cover;
   max-height: 100vh;
@@ -14,11 +14,12 @@
 }
 .card-body {
   margin-top: -30px;
-}
+} */
 
 .bg-sponsors {
   margin-top: 70px;
 }
+
 .bg-speakers {
   background: url("../../assets/img/partnership/bg-past-speakers.png");
   background-size: cover;
@@ -67,12 +68,15 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .underline.colored {
   background-color: #fd749b;
 }
+
 .underline.white {
   background-color: white;
 }
+
 .underline {
   width: 5%;
   height: 3px;
@@ -97,29 +101,36 @@
   .bg-sponsors {
     margin: 50px 0px;
   }
+
   .bg-speakers {
     max-height: 100vh;
     background: url("../../assets/img/partnership/bg-2.png");
     padding: 20px 0px;
   }
+
   .bg-booklet {
     background: url("../../assets/img/partnership/bg-3.png");
     background-size: cover;
     height: 100%;
   }
+
   .bg-booklet .content {
     padding-top: 50px;
   }
+
   .bg-booklet .content .booklet .right-content {
     width: 70%;
     text-align: center;
   }
+
   .bg-booklet .content .booklet .right-content h5 {
     font-size: 18px;
   }
+
   .underline {
     width: 10%;
   }
+
   .content {
     padding: 50px;
   }

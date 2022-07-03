@@ -2937,6 +2937,11 @@ html::-webkit-scrollbar-thumb:active {
     background-size: cover;
 }
 
+.slider-bg-parn {
+    background: url(../img/partnership/bg_type_parn.png);
+    background-size: cover;
+}
+
 .slider-area .hero__caption span {
     display: inline-block;
     color: #28395a;
@@ -3076,6 +3081,13 @@ html::-webkit-scrollbar-thumb:active {
         border-radius: 50px;
     }
 
+    .partnership_ .card {
+        /* margin-top: -80px;
+        margin-left: -55px;
+        width: 110%; */
+        padding: 200px 70px 170px 70px;
+    }
+
     .documentation__ .card {
         padding: 180px 70px 90px 70px;
     }
@@ -3127,6 +3139,11 @@ html::-webkit-scrollbar-thumb:active {
         color: #fff
     }
 
+    .partnership_ .card .hero__caption p {
+        padding-left: 30px;
+        width: 94%;
+        font-size: 20px !important;
+    }
 
     .slider-area .hero__img img {
         position: absolute;
