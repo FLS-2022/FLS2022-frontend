@@ -56,13 +56,16 @@
 
 <h2> 5. Pre Event </h2>
 - ✅: (background)
+- :white_check_mark: (competition series)
+- :white_check_mark: (posters)
 
 <h2> 6. Partnership </h2>
 - ✅: (hero)
 - ✅: (booklet)
 - ✅: (slider)
 - ✅: (background)
-- ‼️: foto & video belum dikasih
+- :white_check_mark: (speakers)
+- :white_check_mark: (sponsors)
 
 <h2> 7. Documentation </h2>
 
