@@ -16,14 +16,17 @@
   position: relative;
 }
 
-.underline {
-  margin: 0px auto;
-  background-color: #fd749b;
-  border: 0.2px solid #fd749b;
-  border-radius: 25px;
-  width: 5%;
-  padding: 0.5px 0.5px;
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .underline {
+    margin: 0px auto;
+    background-color: #fd749b;
+    border: 0.2px solid #fd749b;
+    border-radius: 25px;
+    width: 5%;
+    padding: 0.5px 0.5px;
+  }
 }
+
 
 .slider-area .hero__caption p {
   margin-bottom: 54px;
@@ -113,9 +116,10 @@
 }
 
 @media (max-width: 998px) {
-  .underline {
+  /* .underline {
     width: 10%;
-  }
+  } */
+
   .main-content {
     margin: 0px 10%;
   }
@@ -140,6 +144,7 @@
     min-height: 100vh;
     margin-top: 50px;
   }
+
   .grand-theme .grand-content {
     padding-top: 0px;
   }

@@ -27,18 +27,22 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .workshop-series {
   padding: 70px 0px;
 }
 
-.underline {
-  margin: 0px auto;
-  background-color: #fd749b;
-  border: 0.2px solid #fd749b;
-  border-radius: 25px;
-  width: 7%;
-  padding: 0.5px 0.5px;
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .underline {
+    margin: 0px auto;
+    background-color: #fd749b;
+    border: 0.2px solid #fd749b;
+    border-radius: 25px;
+    width: 7%;
+    padding: 0.5px 0.5px;
+  }
 }
+
 
 .posters {
   flex-direction: row;
@@ -51,11 +55,13 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .posters .poster {
   display: flex;
   flex-direction: column;
   margin: 0rem 1rem;
 }
+
 .poster img {
   width: 350px;
   height: 450px;
@@ -72,6 +78,7 @@ body {
   transition: all 0.3s ease-in-out;
   background: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
 }
+
 .card-body {
   margin-top: -50px;
 }
@@ -80,20 +87,25 @@ body {
   .slider-bg {
     max-height: 100vh;
   }
+
   .slider-area .hero__img img {
     display: none;
   }
+
   .slider-area .hero__caption {
     overflow: hidden;
     position: relative;
   }
+
   .title {
     font-size: 42px;
   }
+
   .posters {
     flex-direction: column;
     margin-top: 0rem;
   }
+
   .posters .poster {
     margin-top: 3rem;
   }

@@ -2703,9 +2703,12 @@ html::-webkit-scrollbar-thumb:active {
     padding: 10px;
 }
 
+
+
 .footer-area .contact .iconsosmed .gplus_ {
-    font-size: 24px;
-    padding: 11px 9px;
+    font-size: 34px;
+    padding: 8px 9px;
+
 }
 
 .footer-area .contact .iconsosmed .ig_ {
@@ -2746,6 +2749,10 @@ html::-webkit-scrollbar-thumb:active {
 .footer-area .footer-tittle ul li a:hover {
     color: #eb566c;
     padding-left: 5px;
+}
+
+.footer-area .contact .iconsosmed li {
+    margin-bottom: 25px;
 }
 
 .footer-area .contact .iconsosmed li span:hover {
@@ -2837,7 +2844,7 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .footer-area .contact .iconsosmed li {
-        margin-bottom: -20px;
+        margin-bottom: 20px;
     }
 
     .footer-area .contact .iconsosmed li a {
@@ -2889,7 +2896,7 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .footer-area .contact .iconsosmed li {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .footer-area .contact .iconsosmed i {
