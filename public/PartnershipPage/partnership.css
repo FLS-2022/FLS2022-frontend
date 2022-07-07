@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-/* .slider-bg {
-  background: url("../../assets/img/partnership/bg\ 1\ png\ 1.png");
-  background-size: cover;
-  max-height: 100vh;
-}
-.slider-area .hero__img img {
-  position: absolute;
-  right: -20px !important;
-}
-.hero__caption p {
-  font-size: 18px;
-}
-.card-body {
-  margin-top: -30px;
-} */
-
 .bg-sponsors {
   margin-top: 70px;
 }
@@ -111,7 +95,7 @@
   .bg-booklet {
     background: url("../../assets/img/partnership/bg-3.png");
     background-size: cover;
-    height: 100%;
+    height: 100vh;
   }
 
   .bg-booklet .content {
