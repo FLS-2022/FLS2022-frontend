@@ -1,3 +1,7 @@
+html{
+	overflow-x: hidden;
+}
+
 body {
 	padding-right: 0 !important;
 	color: #fff;
@@ -206,6 +210,10 @@ body {
 	padding: 4rem 0;
 }
 
+.timeline .section-title{
+	margin-top: 8rem;
+}
+
 .card-event{
 	margin-top: 4rem;
 	width:80vw;
@@ -237,7 +245,7 @@ body {
 }
 
 .card-event .content-title{
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 25px;
 	position: relative;
@@ -259,12 +267,14 @@ body {
 	margin-top: 1rem;
 	padding:1rem 2rem;
 	background-color: #fff;
-	font-weight: 600;
-	font-size: 1.25rem;
+	font-weight: 500;
+	font-size: 1.125rem;
 	border-radius: 30px;
+	text-align: justify;
 }
 
 .card-event.day1{
+	margin-top: 8rem;
 	background: linear-gradient(180deg, #FD749B 0%, #C81A6D 99.99%, rgba(122, 104, 109, 0) 100%);
 	color:#FA5886;
 }
@@ -273,8 +283,12 @@ body {
 	background-color: #B4004C;
 }
 
+.card-event.day1 .event-day{
+	border: 2px solid #FA5886;
+}
+
 .card-event.day2{
-	margin-top: 15rem;
+	margin-top: 10rem;
 	background: linear-gradient(180deg, #EA74FD 0%, #C81AB6 99.99%, rgba(122, 104, 109, 0) 100%);
 	color:#CF2CEA;
 }
@@ -283,8 +297,13 @@ body {
 	background-color: #B400AC;
 
 }
+
+.card-event.day2 .event-day{
+	border: 2px solid #CF2CEA;
+}
+
 .card-event.day3{
-	margin-top: 8rem;
+	margin-top: 10rem;
 	background: linear-gradient(180deg, #74C3FD 0%, #1A5FC8 99.99%, rgba(122, 104, 109, 0) 100%);
 	color:#588FFA;
 }
@@ -293,8 +312,12 @@ body {
 	background-color: #0073B4;
 }
 
+.card-event.day3 .event-day{
+	border: 2px solid #588FFA;
+}
+
 .card-event.pasca{
-	margin-top: 8rem;
+	margin-top: 10rem;
 	background: linear-gradient(180deg, #FD7474 0%, #C81A1A 99.99%, rgba(122, 104, 109, 0) 100%);
 	color:#FA5858;
 }
@@ -303,10 +326,8 @@ body {
 	background-color: #B40000;
 }
 
-.comingsoon-event p{
-	font-weight: 500;
-	font-size: 1.25rem;
-	line-height: 40px;
+.card-event.pasca .event-day{
+	border: 2px solid #FA5858;
 }
 
 @media screen and (max-width:768px){
