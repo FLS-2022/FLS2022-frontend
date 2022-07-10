@@ -34,15 +34,15 @@
 - :white_check_mark: (Bundling Package)
 - :white_check_mark: (Contact Person)
 - :white_check_mark: (Responsive Phone - Lepi Fixed)
-- :bangbang: (Not responsive in Ipad)
-- :bangbang: (Screen flickering in mobile device)
+- :white_check_mark: (Not responsive in Ipad)
+- :white_check_mark: (Screen flickering in mobile device)
 
 <h2> 3. Main Event </h2>
 
 - :white_check_mark: (Hero)
 - :white_check_mark: (Our Main Room)
-- :bangbang: (Section lainnya belum dibuat karena kemarin baru disuruh sampai Our Main Room)
-- :bangbang: (Screen flickering in mobile device)
+- :white_check_mark: (Section lainnya belum dibuat karena kemarin baru disuruh sampai Our Main Room)
+- :white_check_mark: (Screen flickering in mobile device)
 
 <h2> 4. About Us </h2>
 
