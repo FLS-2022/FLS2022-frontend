@@ -2463,12 +2463,12 @@ html::-webkit-scrollbar-thumb:active {
 .header-area .main-header .menu-wrapper .main-menu .logins .btn {
     background: linear-gradient(0deg,
             rgba(41, 26, 200, 1) 0%,
-            rgba(253, 116, 155, 1) 100%) !important;
-    border-radius: 50px !important;
-    border: none !important;
-    color: white !important;
-    padding: 10px 30px 10px 30px !important;
-    font-weight: 500 !important;
+            rgba(253, 116, 155, 1) 100%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: 500;
 }
 
 .header-area .main-header .menu-wrapper .header-right ul {
