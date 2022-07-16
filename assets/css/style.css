@@ -2460,9 +2460,20 @@ html::-webkit-scrollbar-thumb:active {
     transition: all 0.3s ease-out 0s;
 }
 
+.header-area .main-header .menu-wrapper .main-menu .logins button {
+    background: linear-gradient(0deg,
+            rgba(41, 26, 200, 1) 0%,
+            rgba(253, 116, 155, 1) 100%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: 500;
+}
+
 .header-area .main-header .menu-wrapper .header-right ul {
     display: flex !important;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 .header-area .main-header .menu-wrapper .header-right .nav-search {
@@ -2571,7 +2582,7 @@ html::-webkit-scrollbar-thumb:active {
     justify-content: center;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .header-area .main-header {
         padding: 0px 10px;
     }
@@ -2586,6 +2597,25 @@ html::-webkit-scrollbar-thumb:active {
 
     .header-area .main-header .doc_ .underline {
         width: 95%;
+    }
+
+    .header-area .main-header .menu-wrapper .main-menu .logins button {
+        margin-left: 400px;
+        background: linear-gradient(0deg,
+                rgba(41, 26, 200, 1) 0%,
+                rgba(253, 116, 155, 1) 100%);
+        border-radius: 50px;
+        border: none;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header-area .main-header .menu-wrapper .main-menu .logins button {
+        margin-left: 90px;
+
     }
 }
 
@@ -4701,7 +4731,7 @@ html::-webkit-scrollbar-thumb:active {
 
 .testimonial-carousel .owl-item .testimonial-item h6 {
     font-weight: 800;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .testimonial-carousel .owl-item .testimonial-item small {
@@ -4734,19 +4764,48 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
     /* here */
+    .testimonial-carousel .owl-item .testimonial-item img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonial-carousel .owl-item .testimonial-item .carol_show {
+        display: none;
+    }
+
+    .testimonial-carousel .owl-item .testimonial-item small {
+        font-weight: 600;
+        font-size: 22px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
     /* here */
+    .testimonial-carousel .testimonial-item .carol_hide {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     /* here */
+
+    .testimonial-carousel .testimonial-item .carol_hide {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
     /* here */
+    .testimonial-carousel .testimonial-item .carol_hide {
+        display: none;
+    }
 }
 
 @media (max-width: 575px) {
@@ -4759,6 +4818,10 @@ html::-webkit-scrollbar-thumb:active {
     .testy_ h2 {
         font-size: 40px;
         font-weight: 800;
+    }
+
+    .testimonial-carousel .testimonial-item .carol_hide {
+        display: none;
     }
 }
 
