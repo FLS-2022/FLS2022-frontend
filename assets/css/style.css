@@ -2614,7 +2614,7 @@ html::-webkit-scrollbar-thumb:active {
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .header-area .main-header .menu-wrapper .main-menu .logins button {
-        margin-left: 90px;
+        margin-left: 112px;
 
     }
 }
