@@ -4,18 +4,18 @@
 
 <h2> 1. Main </h2>
 
-- :white_check_mark: [UPDATED] (Header - Footer)
-- :white_check_mark: [UPDATED] (Slider + Animasi)
-- :white_check_mark: (Custom Scrollbar)
-- :white_check_mark: (Back to Top Button)
-- :white_check_mark: (About)
-- :white_check_mark: [UPDATED] (Greetings)
-- :white_check_mark: [UPDATED] (Team & Member + fixed popup divisi)
-- :white_check_mark: (Teaser + fixed popup video)
-- :white_check_mark: [UPDATED] (Feeds + owl carousel)
-- :white_check_mark: [UPDATED] (Testimoni + data user)
+- :white_check_mark: [UPDATED] [DARK MODE] (Header - Footer)
+- :white_check_mark: [UPDATED] [DARK MODE] (Slider + Animasi)
+- :white_check_mark: [UPDATED] [DARK MODE] (Custom Scrollbar)
+- :white_check_mark: [UPDATED] [DARK MODE] (Back to Top Button)
+- :white_check_mark: [UPDATED] [DARK MODE] (About)
+- :white_check_mark: [UPDATED] [DARK MODE] (Greetings)
+- :white_check_mark: [UPDATED] [DARK MODE] (Team & Member + fixed popup divisi)
+- :white_check_mark: [UPDATED] [DARK MODE] (Teaser + fixed popup video)
+- :white_check_mark: [UPDATED] [DARK MODE] (Feeds + owl carousel)
+- :white_check_mark: [UPDATED] [DARK MODE] (Testimoni + data user)
 - :white_check_mark: [UPDATED] (All Responsive Phone - iPad - Lepi Fixed)
-- :bangbang: Link Feeds (nunggu data)
+- :white_check_mark: [UPDATED [DARK MODE] Link Feeds (nunggu data)
 
 <h2> 1.1. 404 PAGE </h2>
 
