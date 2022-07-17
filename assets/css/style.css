@@ -1659,22 +1659,22 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #1E0338;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #fd749b;
+    background: #7C0CE5;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-    background: #fd749b;
+    background: #7C0CE5;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb:active {
-    background: #fd749b;
+    background: #7C0CE5;
     border-radius: 10px;
 }
 
@@ -2017,7 +2017,9 @@ html::-webkit-scrollbar-thumb:active {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    background: #fff;
+
+    background: #1E0338;
+    /* background: #390967; */
 }
 
 @media (max-width: 575px) {
@@ -2362,7 +2364,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .header-area .main-header .sticky-bar .main-menu ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: none;
 }
 
@@ -2409,7 +2411,7 @@ html::-webkit-scrollbar-thumb:active {
 .header-area .main-header .menu-wrapper .main-menu ul ul.submenu {
     position: absolute;
     width: 170px;
-    background: #fff;
+    background: #1E0338;
     left: 0;
     top: 90%;
     visibility: hidden;
@@ -2433,7 +2435,7 @@ html::-webkit-scrollbar-thumb:active {
 .header-area .main-header .menu-wrapper .main-menu ul ul.submenu>li>a {
     padding: 6px 10px !important;
     font-size: 16px;
-    color: #0b1c39;
+    color: #ffffff;
     text-transform: capitalize;
 }
 
@@ -2460,7 +2462,11 @@ html::-webkit-scrollbar-thumb:active {
     transition: all 0.3s ease-out 0s;
 }
 
-.header-area .main-header .menu-wrapper .main-menu .logins .btn {
+/* .header-area .main-header .menu-wrapper .main-menu .logins {
+    padding-bottom: -500px;
+} */
+
+.header-area .main-header .menu-wrapper .main-menu ul li button {
     background: linear-gradient(0deg,
             rgba(41, 26, 200, 1) 0%,
             rgba(253, 116, 155, 1) 100%);
@@ -2599,7 +2605,7 @@ html::-webkit-scrollbar-thumb:active {
         width: 95%;
     }
 
-    .header-area .main-header .menu-wrapper .main-menu .logins button {
+    .header-area .main-header .menu-wrapper .main-menu ul li button {
         margin-left: 400px;
         background: linear-gradient(0deg,
                 rgba(41, 26, 200, 1) 0%,
@@ -2613,7 +2619,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    .header-area .main-header .menu-wrapper .main-menu .logins button {
+    .header-area .main-header .menu-wrapper .main-menu ul li button {
         margin-left: 112px;
 
     }
@@ -2951,11 +2957,12 @@ html::-webkit-scrollbar-thumb:active {
     /* margin-left: -55px; */
     width: 100%;
     /* padding: 110px 70px 30px 70px; */
-    background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background: transparent;
+    border: none;
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
-    border-radius: 50px;
+    border-radius: 50px; */
 }
 
 .slider-area .hero__caption {
@@ -2975,6 +2982,11 @@ html::-webkit-scrollbar-thumb:active {
     background-size: cover;
 }
 
+.slider-bg-aboutus {
+    background: url(../img/bg_about.png);
+    background-size: cover;
+}
+
 .slider-bg-parn {
     background: url(../img/partnership/bg_type_parn.png);
     background-size: cover;
@@ -2991,22 +3003,22 @@ html::-webkit-scrollbar-thumb:active {
 .slider-area .hero__caption .hua1 {
     padding-left: 25px;
     /* width: 80%; */
-    background-color: #ffffff;
-    border-radius: 40px;
+    background-color: transparent;
+    /* border-radius: 40px; */
 }
 
 .slider-area .hero__caption h1 {
-    background: linear-gradient(90deg,
+    /* background: linear-gradient(90deg,
             rgba(231, 124, 125, 1) 0%,
             rgba(159, 145, 226, 1) 50%,
             rgba(50, 205, 186, 1) 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
     padding-left: 5px;
-    -webkit-text-fill-color: transparent;
-    border-radius: 40px;
+    /* -webkit-text-fill-color: transparent; */
+    /* border-radius: 40px; */
     /* font-size: 65px; */
     font-weight: 700;
-    color: rgb(134, 49, 49);
+    color: white;
     font-family: "moholregular", sans-serif;
     line-height: 1.3;
     /* margin-bottom: 20px */
@@ -3104,19 +3116,19 @@ html::-webkit-scrollbar-thumb:active {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .slider-height {
-        min-height: 800px
+        height: 760px
     }
 
     .slider-area .card {
-        margin-top: -80px;
+        margin-top: 65px;
         margin-left: -55px;
         width: 110%;
-        padding: 110px 70px 30px 70px;
-        background: rgba(255, 255, 255, 0.35);
+        /* padding: 110px 70px 30px 70px; */
+        /* background: rgba(255, 255, 255, 0.35);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(7px);
         -webkit-backdrop-filter: blur(7px);
-        border-radius: 50px;
+        border-radius: 50px; */
     }
 
     .partnership_ .card {
@@ -3132,16 +3144,17 @@ html::-webkit-scrollbar-thumb:active {
 
     .slider-area .hero__caption .hua1 {
         padding-left: 25px;
-        width: 80%;
-        background-color: #ffffff;
-        border-radius: 40px;
+        width: 100%;
+        background-color: transparent;
+        margin-bottom: -20px;
+        /* border-radius: 40px; */
     }
 
     .documentation__ .hero__caption .hua1 {
         padding-left: 25px;
         width: 95%;
-        background-color: #ffffff;
-        border-radius: 40px;
+        background-color: transparent;
+        /* border-radius: 40px; */
     }
 
     .documentation__ .hero__caption .siki_ {
@@ -3153,14 +3166,15 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .slider-area .hero__caption h1 {
-        background: linear-gradient(90deg, rgba(231, 124, 125, 1) 0%, rgba(159, 145, 226, 1) 50%, rgba(50, 205, 186, 1) 100%);
-        -webkit-background-clip: text;
-        padding-left: 5px;
-        -webkit-text-fill-color: transparent;
-        border-radius: 40px;
-        font-size: 65px;
-        font-weight: 700;
-        color: rgb(134, 49, 49);
+        /* background: linear-gradient(90deg, rgba(231, 124, 125, 1) 0%, rgba(159, 145, 226, 1) 50%, rgba(50, 205, 186, 1) 100%);
+        -webkit-background-clip: text; */
+        /* padding-left: 5px; */
+        /* -webkit-text-fill-color: transparent; */
+        /* border-radius: 40px; */
+        margin-left: -20px;
+        font-size: 60px;
+        font-weight: 800;
+        color: #ffffff;
         font-family: "moholregular", sans-serif;
         line-height: 1.3;
         margin-bottom: 20px
@@ -3439,9 +3453,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .gradient_text {
-    background: linear-gradient(0deg,
+    background: linear-gradient(188deg, rgba(253, 116, 155, 1) 0%, rgba(145, 135, 255, 1) 84%);
+    /* background: linear-gradient(0deg,
             rgba(41, 26, 200, 1) 0%,
-            rgba(253, 116, 155, 1) 100%);
+            rgba(253, 116, 155, 1) 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -3469,19 +3484,19 @@ html::-webkit-scrollbar-thumb:active {
     width: 60%;
 }
 
-.section-padding30 {
+/* .section-padding30 {
     padding-top: 195px;
     padding-bottom: 140px;
-}
+} */
 
 .section-paddingrandom2 {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 200px;
 }
 
 .section-padding03 {
-    padding-top: 200px;
-    padding-bottom: 80px;
+    padding-top: 130px;
+    padding-bottom: 145px;
 }
 
 .section-tittle3 span {
@@ -3535,13 +3550,13 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .section-padding30 {
-        padding-top: 195px;
-        padding-bottom: 140px;
+        padding-top: 145px;
+        padding-bottom: 130px;
     }
 
     .section-padding03 {
-        padding-top: 200px;
-        padding-bottom: 80px;
+        padding-top: 130px;
+        padding-bottom: 145px;
     }
 
     .all-starups-area .starups-img img {
@@ -3790,7 +3805,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .section-paddingrandom {
-    padding-top: 110px;
+    padding-top: 10px;
     padding-bottom: 210px;
 }
 
@@ -3812,22 +3827,41 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .section-padding-project {
-    padding-top: 200px;
+    padding-top: 80px;
     padding-bottom: 100px;
 }
 
 /* card service */
+.services-area .card {
+    background: linear-gradient(180deg, rgba(57, 9, 103, 1) 0%, rgba(124, 12, 229, 1) 84%);
+    background-size: cover;
+    border: none;
+}
+
+.services-area .news_card .card-footer {
+    background: rgba(124, 12, 229, 1) 84%;
+}
+
+.services-area .news_card .ats {
+    background: transparent;
+}
+
 .services-area .card,
 .services-area .card-footer {
     border-radius: 30px;
 }
 
+.services-area .news_card .card-body .card-text {
+    color: #ffffff;
+}
+
 .services-area .card-title {
-    background: linear-gradient(0deg,
-            rgba(40, 26, 200, 1) 0%,
-            rgba(50, 205, 186, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(253, 116, 155, 1);
+    /* background: linear-gradient(0deg,
+                rgba(40, 26, 200, 1) 0%,
+                rgba(50, 205, 186, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
     font-family: "moholregular", sans-serif;
     font-weight: 600;
 }
@@ -4127,7 +4161,7 @@ html::-webkit-scrollbar-thumb:active {
 
 .all-starups-area .starups .starups-details .details-caption2 {
     padding: 5px 10px;
-    background-color: #f7b5b58d;
+    background: linear-gradient(180deg, rgba(57, 9, 103, 1) 0%, rgba(124, 12, 229, 1) 100%);
     border-radius: 15px;
 }
 
@@ -4249,11 +4283,14 @@ html::-webkit-scrollbar-thumb:active {
 
 .shadow_box .card {
     box-shadow: 10px 9px 10px #aaaaaa55;
+    border: 5px solid #f15a64;
 }
 
+
 .shadow_box .card-header {
-    background: white;
+    background: transparent;
     border-radius: 50px;
+
 }
 
 .services-area .team_text h5 {
@@ -4310,7 +4347,7 @@ html::-webkit-scrollbar-thumb:active {
 .team-item h5,
 .team-item p {
     margin-top: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
 }
@@ -4652,6 +4689,10 @@ html::-webkit-scrollbar-thumb:active {
     transition: 0.5s;
 }
 
+.project-item h6 {
+    color: #ffffff;
+}
+
 .project-item:hover a {
     opacity: 1;
 }
@@ -4718,16 +4759,18 @@ html::-webkit-scrollbar-thumb:active {
 .testimonial-carousel .owl-item .testimonial-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
     border: 1px solid transparent;
+
     transform: scale(0.85);
     transition: 0.5s;
-    background: rgba(255, 255, 255, 0.515);
+    background: linear-gradient(180deg, rgba(57, 9, 103, 1) 0%, rgba(124, 12, 229, 1) 84%);
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
     box-shadow: none;
-    border-color: #fd749b;
+
+    border: 2px solid #fd749b;
     transform: scale(1);
-    background: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgba(57, 9, 103, 1) 0%, rgba(124, 12, 229, 1) 84%);
 }
 
 .testimonial-carousel .owl-item .testimonial-item img {
@@ -4746,9 +4789,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .testimonial-carousel .testimonial-item p {
-    font-size: 13px;
+    margin-top: 10px;
+    font-size: 16px;
     text-align: justify;
-    color: black;
+    color: #ffffff;
     font-family: "Poppins", Arial, sans-serif;
 }
 
@@ -4837,6 +4881,15 @@ html::-webkit-scrollbar-thumb:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.search-domain-area h2 {
+
+    background: linear-gradient(176deg, rgba(255, 216, 78, 1) 0%, rgba(255, 104, 222, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800 !important;
+    font-family: "moholregular", sans-serif;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
