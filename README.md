@@ -14,7 +14,7 @@
 - :white_check_mark: [UPDATED] [DARK MODE] (Teaser + fixed popup video)
 - :white_check_mark: [UPDATED] [DARK MODE] (Feeds + owl carousel)
 - :white_check_mark: [UPDATED] [DARK MODE] (Testimoni + data user)
-- :white_check_mark: [UPDATED] (All Responsive Phone - iPad - Lepi Fixed)
+- :white_check_mark: [UPDATED] [DARK MODE] (All Responsive Phone - iPad - Lepi Fixed)
 - :white_check_mark: [UPDATED [DARK MODE] Link Feeds (nunggu data)
 
 <h2> 1.1. 404 PAGE </h2>
