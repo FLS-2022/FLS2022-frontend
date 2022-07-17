@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-.bg-about {
-  background-image: url(../../assets/img/about/bg-top.png);
-  background-size: cover;
-  margin-bottom: 100px;
-}
-
 .slider-area .hero__img img {
   position: absolute;
   right: -20px !important;
@@ -27,7 +21,6 @@
   }
 }
 
-
 .slider-area .hero__caption p {
   margin-bottom: 54px;
   padding-right: 50px;
@@ -37,7 +30,7 @@
 }
 
 .main-content {
-  margin: 0px 15%;
+  margin: 100px 15%;
 }
 
 .main-content .container .about-fls {
@@ -45,6 +38,8 @@
   border: 1px solid #fd749b;
   border-radius: 2rem;
   padding: 50px 100px;
+  background: linear-gradient(#1e0338, #7c0ce5);
+  box-shadow: 1px 1px 25px #fff;
 }
 
 .title {
@@ -62,7 +57,7 @@
 }
 
 .main-content .container .about-fls .about-caption p {
-  color: #333333;
+  color: #ffffff;
   font-size: 15px;
 }
 
@@ -82,16 +77,23 @@
   margin-top: 3rem;
 }
 
+.organizational-culture {
+  padding: 0px 7rem;
+  width: 100%;
+  background: url(../../assets/img/bg_about.png);
+  background-size: cover;
+}
+
 .organizational-content .text p {
   font-size: 16px;
-  color: #333333;
+  color: #ffffff;
 }
 
 .grand-theme {
-  background: url(../../assets/img/about/bg-grand.png);
+  background: url(../../assets/img/about/bg-grand-dark.png);
   overflow-x: hidden;
   background-size: cover;
-  min-height: 150vh;
+  min-height: 120vh;
   width: 100%;
 }
 
@@ -116,12 +118,12 @@
 }
 
 @media (max-width: 998px) {
-  /* .underline {
-    width: 10%;
-  } */
+  .slider-bg {
+    max-height: 100vh;
+  }
 
   .main-content {
-    margin: 0px 10%;
+    margin: 50px 10%;
   }
 
   .main-content .container .content {
