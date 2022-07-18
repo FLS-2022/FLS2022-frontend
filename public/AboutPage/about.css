@@ -2,7 +2,8 @@
 
 .slider-area .hero__img img {
   position: absolute;
-  right: -20px !important;
+  top: -200px;
+  right: 50px !important;
 }
 
 .slider-area .hero__caption {
