@@ -2971,16 +2971,13 @@ html::-webkit-scrollbar-thumb:active {
     position: relative;
 }
 
-.slider-bg {
+.slider-bg,
+.slider-bg-doc {
     background: url(../img/bg_type4.png);
     background-size: cover;
 }
 
 /* competition */
-.slider-bg-doc {
-    background: url(../img/bg_type_doc.png);
-    background-size: cover;
-}
 
 .slider-bg-aboutus {
     background: url(../img/bg_about.png);
@@ -3119,6 +3116,16 @@ html::-webkit-scrollbar-thumb:active {
     background-size: cover;
 }
 
+.documentation2__ .card .card-body p,
+.documentation2__ .card .card-body .text-muted {
+    /* here */
+    color: #ffffff !important;
+}
+
+.documentation2__ .card .card-footer {
+    background: transparent;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .slider-height {
         height: 760px
@@ -3143,15 +3150,14 @@ html::-webkit-scrollbar-thumb:active {
         padding: 200px 70px 170px 70px;
     }
 
-    .documentation__ .card {
-        padding: 180px 70px 90px 70px;
-    }
+
 
     .slider-area .hero__caption .hua1 {
         padding-left: 25px;
         width: 100%;
         background-color: transparent;
         margin-bottom: -20px;
+        border: none;
         /* border-radius: 40px; */
     }
 
@@ -3159,6 +3165,7 @@ html::-webkit-scrollbar-thumb:active {
         padding-left: 25px;
         width: 95%;
         background-color: transparent;
+        border: none;
         /* border-radius: 40px; */
     }
 
@@ -3168,6 +3175,7 @@ html::-webkit-scrollbar-thumb:active {
 
     .documentation__ .hero__caption h1 {
         font-size: 50px !important;
+
     }
 
     .slider-area .hero__caption h1 {
@@ -3321,6 +3329,8 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media (max-width: 575px) {
+
+
     .slider-bg {
         background: url(../img/banner/bghero_hp.png);
         background-size: cover;
@@ -3337,12 +3347,19 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .slider-height {
-        height: 900px;
+        height: 600px;
 
     }
 
+    /* 
+    .slider-height2 {
+        height: 600px;
+
+    } */
+
     .slider-area .card {
-        margin-top: -80px;
+        margin-top: 150px;
+        /* margin-top: -80px; */
         /* margin-left: -55px; */
         width: 100%;
         padding: 56px 0px 40px 0px;
@@ -3524,6 +3541,11 @@ html::-webkit-scrollbar-thumb:active {
 
 .section-paddingrandom2 {
     padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.section-paddingrandom3 {
+    padding-top: 110px;
     padding-bottom: 200px;
 }
 
@@ -3740,6 +3762,7 @@ html::-webkit-scrollbar-thumb:active {
     .section-tittle {
         margin-bottom: 50px;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -3900,12 +3923,16 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .documentation2__ .card-title {
-    background: linear-gradient(0deg, rgba(41, 26, 200, 1) 0%, rgba(253, 116, 155, 1) 100%);
+    background: linear-gradient(188deg, rgba(253, 116, 155, 1) 0%, rgba(145, 135, 255, 1) 84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'moholregular', sans-serif;
     font-size: 30px;
     font-weight: 800;
+}
+
+.documentation2__ .page-item a {
+    border: none;
 }
 
 .documentation2__ nav ul li a {
@@ -4147,6 +4174,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media (max-width: 575px) {
+    .documentation2__ {
+        padding-top: 60px !important;
+    }
+
     .services-area .btn_more a {
         margin-top: -20px;
     }
@@ -4319,7 +4350,7 @@ html::-webkit-scrollbar-thumb:active {
 
 .shadow_box .card {
     box-shadow: 10px 9px 10px #aaaaaa55;
-    border: 5px solid #f15a64;
+    border: 3px solid #f15a64;
 }
 
 
