@@ -43,6 +43,7 @@
 - :white_check_mark: (Our Main Room)
 - :white_check_mark: (Section lainnya belum dibuat karena kemarin baru disuruh sampai Our Main Room)
 - :white_check_mark: (Screen flickering in mobile device)
+- :white_check_mark: (Update Dark Theme)
 
 <h2> 4. About Us </h2>
 
