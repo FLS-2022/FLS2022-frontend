@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^service\.futureleadersummit\.org$
+RewriteRule ^/?$ "http\:\/\/203\.194\.112\.187\:33041\/" [R=301,L]
+
