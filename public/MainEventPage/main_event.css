@@ -11,10 +11,12 @@ body {
 	font-weight: bold;
 	font-size: 4rem;
 	text-align: center;
-	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+	background: linear-gradient(180deg, #FD749B 17.11%, #9187FF 90%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+
+	text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
 .section-title::after {
