@@ -60,10 +60,12 @@ p {
 
 /* MERCHANDISE */
 .merchandise {
-	height: 100vh;
-	margin-top: 110px;
-	padding: 1rem 0;
+	padding:3rem 0;
 	position: relative;
+	background: url("../../assets/img/bg_about.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .merch-page .responsive-slick-merch {
@@ -169,30 +171,6 @@ p {
 	text-decoration: line-through;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media (max-width: 575px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
 /* BUNDLING PACKAGE */
 .bundling {
 	height: 105vh;
@@ -201,6 +179,8 @@ p {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	border-top: 17px solid #3E0A72;
+	border-bottom: 17px solid #3E0A72;
 }
 
 /* ORDER */
