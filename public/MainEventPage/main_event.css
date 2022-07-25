@@ -106,6 +106,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 /* MAIN ROOM */
 .main-room{
 	background: url("../../assets/img/bg_about.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 4rem 0;
 }
 .main-room .card-wrapper {

@@ -60,10 +60,11 @@ p {
 
 /* MERCHANDISE */
 .merchandise {
-	height: 100vh;
-	margin-top: 110px;
-	padding: 1rem 0;
+	padding:3rem 0;
 	position: relative;
+	background: url("../../assets/img/bg_about.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .merch-page .responsive-slick-merch {
@@ -201,6 +202,8 @@ p {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	border-top: 17px solid #3E0A72;
+	border-bottom: 17px solid #3E0A72;
 }
 
 /* ORDER */
