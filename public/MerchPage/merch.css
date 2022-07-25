@@ -64,6 +64,7 @@ p {
 	position: relative;
 	background: url("../../assets/img/bg_about.png");
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -168,30 +169,6 @@ p {
 
 .text-line-through {
 	text-decoration: line-through;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-	.merch-hero-img {
-		display: none !important;
-	}
-}
-
-@media (max-width: 575px) {
-	.merch-hero-img {
-		display: none !important;
-	}
 }
 
 /* BUNDLING PACKAGE */
