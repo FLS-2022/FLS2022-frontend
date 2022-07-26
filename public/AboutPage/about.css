@@ -10,6 +10,14 @@
   overflow: hidden;
   position: relative;
 }
+.hero-title {
+  background: linear-gradient(
+    90deg,
+    rgba(242, 84, 93, 0.9) 7.57%,
+    rgba(107, 90, 169, 0.9) 54.88%,
+    rgba(43, 186, 171, 0.9) 97.76%
+  ) !important;
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .underline {
@@ -46,10 +54,11 @@
 .title {
   font-weight: bold;
   font-size: 1.7rem;
-  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  background: linear-gradient(180deg, #fd749b 17.11%, #9187ff 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
 .main-content .container .about-fls .about-caption h3 {
@@ -91,11 +100,13 @@
 }
 
 .grand-theme {
-  background: url(../../assets/img/about/bg-grand-dark.png);
+  background: rgba(41, 39, 39, 0.5)
+    url(../../assets/img/about/bg-grand-dark.png);
   overflow-x: hidden;
   background-size: cover;
   min-height: 120vh;
   width: 100%;
+  background-blend-mode: darken;
 }
 
 .grand-theme .grand-content {
@@ -107,7 +118,7 @@
   padding: 70px 0px;
 }
 
-.grand-theme .headline h1 {
+.title-grand-theme {
   font-size: 80px;
   font-weight: bold;
   background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
@@ -115,7 +126,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   position: relative;
-  filter: drop-shadow(3px 3px #fff);
+  text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 998px) {
@@ -137,6 +148,10 @@
 
   .main-content .container .about-fls .about-caption p {
     font-size: 13px;
+  }
+
+  .organizational-culture {
+    padding: 0rem 2rem;
   }
 
   .main-content .container .content .cards .card {
