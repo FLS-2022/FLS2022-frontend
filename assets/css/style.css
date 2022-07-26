@@ -3009,6 +3009,10 @@ html::-webkit-scrollbar-thumb:active {
     /* border-radius: 40px; */
 }
 
+.hua1 h1 {
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.6);
+}
+
 .slider-area .hero__caption h1 {
     /* background: linear-gradient(90deg,
             rgba(231, 124, 125, 1) 0%,
@@ -3099,7 +3103,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .slider-social a i {
-    color: #45455f;
+    color: #CE2228;
     margin-left: 18px;
     font-size: 14px;
     transition: all 0.4s ease-out 0s;
@@ -3127,6 +3131,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+        background: #440A7A !important;
+    }
+
     .slider-height {
         height: 760px
     }
@@ -3194,7 +3202,7 @@ html::-webkit-scrollbar-thumb:active {
     }
 
     .slider-area .hero__caption p {
-        background: linear-gradient(90deg, rgba(231, 124, 125, 1) 0%, rgba(159, 145, 226, 1) 50%, rgba(50, 205, 186, 1) 100%);
+        background: linear-gradient(90deg, rgba(242, 84, 93, 1) 0%, rgba(107, 90, 169, 1) 47%, rgba(43, 186, 171, 1) 100%);
         margin-top: 40px;
         width: 88%;
         padding: 10px 0px 10px 35px;
@@ -3218,9 +3226,13 @@ html::-webkit-scrollbar-thumb:active {
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        background: #440A7A !important;
+    }
+
     .slider-area .hero__img img {
-        right: 0;
+        right: -100px !important;
         bottom: 0;
     }
 
@@ -3236,6 +3248,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background: #440A7A !important;
+    }
+
     .slider-area .hero__caption h1 {
         font-size: 55px;
         line-height: 1.2;
@@ -3243,6 +3259,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     .slider-bg-greetings {
         background: url(../img/banner/bghero_ipad_greetings.png);
         background-size: cover;
@@ -3502,6 +3519,10 @@ html::-webkit-scrollbar-thumb:active {
     align-items: center;
 }
 
+.slider-bg-aboutus .starups-img {
+    margin-left: -90px;
+}
+
 .gradient_text {
     background: linear-gradient(188deg, rgba(253, 116, 155, 1) 0%, rgba(145, 135, 255, 1) 84%);
     /* background: linear-gradient(0deg,
@@ -3523,6 +3544,7 @@ html::-webkit-scrollbar-thumb:active {
 .all-starups-area .starups .starups-details {
     padding-right: 117px;
 }
+
 
 .all-starups-area .starups-img {
     width: 46%;
@@ -3658,8 +3680,8 @@ html::-webkit-scrollbar-thumb:active {
         padding-right: 0px;
     }
 
-    .all-starups-area .starups .starups-details .details-caption p {
-        font-size: 17px;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 p {
+        font-size: 17px !important;
     }
 
     .all-starups-area .starups .starups-details h2 {
@@ -3673,8 +3695,9 @@ html::-webkit-scrollbar-thumb:active {
         margin-bottom: -10px;
     }
 
-    .all-starups-area .starups .starups-details .details-caption {
-        text-align: justify;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 {
+        text-align: justify !important;
+        background: none !important;
     }
 
     /* .all-starups-area .starups-img img {
@@ -3724,13 +3747,14 @@ html::-webkit-scrollbar-thumb:active {
         padding-right: 0px;
     }
 
-    .all-starups-area .starups .starups-details .details-caption {
-        padding-top: 0px;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 {
+        padding-top: 0px !important;
+        background: none !important;
     }
 
-    .all-starups-area .starups .starups-details .details-caption p {
-        font-size: 15px;
-        padding-top: 0px;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 p {
+        font-size: 15px !important;
+        padding-top: 0px !important;
     }
 
     .all-starups-area .starups-img {
@@ -3793,15 +3817,17 @@ html::-webkit-scrollbar-thumb:active {
         margin-bottom: -10px;
     }
 
-    .all-starups-area .starups .starups-details .details-caption {
-        padding-right: 15px;
-        padding-left: 15px;
-        text-align: justify;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        text-align: justify !important;
+        background: none !important;
     }
 
-    .all-starups-area .starups .starups-details .details-caption p {
-        font-size: 15px;
-        padding-top: 0px;
+    .slider-bg-aboutus .starups .starups-details .details-caption2 p {
+        font-size: 15px !important;
+        padding-top: 0px !important;
+
     }
 
     .section-padding30 {
@@ -3877,6 +3903,16 @@ html::-webkit-scrollbar-thumb:active {
     z-index: 0;
 }
 
+.news_ .section-tittle span::before {
+    position: absolute;
+    content: "";
+    background: #fd749b;
+    border-radius: 60px;
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .section-padding2 {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -3912,7 +3948,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .services-area .card-title {
-    color: rgba(253, 116, 155, 1);
+    color: #fff;
     /* background: linear-gradient(0deg,
                 rgba(40, 26, 200, 1) 0%,
                 rgba(50, 205, 186, 1) 100%);
@@ -4129,6 +4165,12 @@ html::-webkit-scrollbar-thumb:active {
         margin-top: 20px;
         margin-bottom: -20px;
     }
+
+    .news_ .section-tittle span::before {
+        width: 149px;
+        height: 6px;
+        left: -147px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4150,6 +4192,11 @@ html::-webkit-scrollbar-thumb:active {
         padding-bottom: 100px;
     }
 
+    .news_ .section-tittle span::before {
+        width: 149px;
+        height: 6px;
+        left: -147px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4174,6 +4221,10 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media (max-width: 575px) {
+    .news_ .section-tittle span::before {
+        display: none;
+    }
+
     .documentation2__ {
         padding-top: 60px !important;
     }
@@ -4219,8 +4270,10 @@ html::-webkit-scrollbar-thumb:active {
 /* Section starup-area2 greeting (keempat) css
 ============================================================================================ */
 .all-starups-area .starups .greeting_PL span::before {
+    margin-top: 5px;
     width: 170px;
 }
+
 
 /* .greeting_PL span {
     margin-top: 20px;
@@ -4259,6 +4312,12 @@ html::-webkit-scrollbar-thumb:active {
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .all-starups-area .starups .greeting_PL h2 {
         font-size: 60px !important;
+    }
+
+    .all-starups-area .starups .starups-details .details-caption2 {
+        padding: 20px 30px 10px 30px !important;
+        background: linear-gradient(180deg, rgba(57, 9, 103, 1) 0%, rgba(124, 12, 229, 1) 100%);
+        border-radius: 15px;
     }
 }
 
@@ -4513,12 +4572,15 @@ html::-webkit-scrollbar-thumb:active {
 
 .video-area {
     height: 545px;
+    width: 95%;
     border-radius: 50px;
     justify-content: center;
+    margin-left: 20px;
 }
 
 .blogs-area .teaser span::before {
     width: 170px;
+    height: 7px;
     top: 0;
     left: -82px;
     top: 50%;
@@ -4629,8 +4691,18 @@ html::-webkit-scrollbar-thumb:active {
     transition: all 200ms;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+
     /* here */
+    .video-area {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    /* here */
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4676,6 +4748,7 @@ html::-webkit-scrollbar-thumb:active {
 @media (max-width: 575px) {
     .video-area {
         height: 300px;
+        margin-left: 5px !important;
     }
 
     .blogs-area {
@@ -4750,6 +4823,16 @@ html::-webkit-scrollbar-thumb:active {
 
 /* Section service-area feeds (ketuju) css
 ============================================================================================ */
+.feeds_ .section-tittle span::before {
+    position: absolute;
+    content: "";
+    background: #fd749b;
+    border-radius: 60px;
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .project-item a {
     position: absolute;
     width: 100%;
@@ -4802,7 +4885,14 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
     /* here */
+    .feeds_ .section-tittle span::before {
+        margin-top: 10px;
+        width: 409px;
+        height: 6px;
+        left: 0px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4815,6 +4905,13 @@ html::-webkit-scrollbar-thumb:active {
     .feeds_ {
         background: url(../img/banner/bghero_ipad_feeds.png) !important;
         margin-top: 80px;
+    }
+
+    .feeds_ .section-tittle span::before {
+        margin-top: 10px;
+        width: 409px;
+        height: 6px;
+        left: 0px;
     }
 }
 
@@ -4834,10 +4931,27 @@ html::-webkit-scrollbar-thumb:active {
         font-size: 35px;
         font-weight: 800;
     }
+
+    .feeds_ .section-tittle span::before {
+        margin-top: 10px;
+        width: 300px;
+        height: 6px;
+        left: 40px;
+    }
 }
 
 /* Section service-area testimoni (kelapan) css
 ============================================================================================ */
+.testy_ .section-tittle span::before {
+    position: absolute;
+    content: "";
+    background: #fd749b;
+    border-radius: 60px;
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .testimonial-carousel .owl-item .testimonial-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
     border: 1px solid transparent;
@@ -4898,6 +5012,12 @@ html::-webkit-scrollbar-thumb:active {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 
     /* here */
+    .testy_ .section-tittle span::before {
+        width: 285px;
+        height: 6px;
+        left: -140px;
+    }
+
     .testimonial-carousel .owl-item .testimonial-item img {
         width: 200px;
         height: 200px;
@@ -4924,6 +5044,12 @@ html::-webkit-scrollbar-thumb:active {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     /* here */
+    .testy_ .section-tittle span::before {
+        width: 278px;
+        height: 6px;
+        left: -140px;
+    }
+
     .testimonial-carousel .testimonial-item .carol_hide {
         display: none;
     }
@@ -4944,6 +5070,12 @@ html::-webkit-scrollbar-thumb:active {
     /* here */
     .testy_ {
         background: rgb(255, 255, 255) !important;
+    }
+
+    .testy_ .section-tittle span::before {
+        width: 210px;
+        height: 6px;
+        left: -100px;
     }
 
     .testy_ h2 {
