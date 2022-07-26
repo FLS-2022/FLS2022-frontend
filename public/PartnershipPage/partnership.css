@@ -110,9 +110,6 @@
     max-height: 100vh;
     padding: 20px 0px;
   }
-  .bg-speakers .image-speakers {
-    background-color: green;
-  }
 
   .bg-booklet {
     background-size: cover;
