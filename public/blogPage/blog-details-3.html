@@ -90,7 +90,7 @@
                                         <li><a class="doc_"
                                                 href="../DocumentationPage/documentation.html">Documentation</a>
                                         </li>
-                                        <li><a class="logins" href="../../public/countdown.html"><button
+                                        <li><a class="logins" id="mylink" href="../../public/countdown.html"><button
                                                     class="btn btn-primary">Login</button>
                                             </a>
                                         </li>
@@ -704,7 +704,16 @@
     <!-- lightbox -->
     <script src="../../plugins/lightbox/js/lightbox.min.js"></script>
     <script src="../../plugins/lightbox/js/fslightbox.js"></script>
-
+    <script>
+        let target = "Jul 27, 2022 15:00:00",
+            countDown = new Date(target).getTime(),
+            now = new Date().getTime(),
+            distance = countDown - now;
+        setTimeout(function () {
+            var link = document.getElementById("mylink");
+            link.setAttribute('href', "https://dashboard.futureleadersummit.org");
+        }, distance);
+    </script>
 
 </body>
 
